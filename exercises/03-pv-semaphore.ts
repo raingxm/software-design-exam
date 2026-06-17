@@ -83,8 +83,69 @@ async function producerConsumerSimulation() {
         consumer(1),
         consumer(2)
     ]);
-    console.log("Simulation Finished.");
+    console.log("Producer-Consumer Simulation Finished.\n");
+}
+
+/**
+ * 经典问题：读者-写者问题 (Reader-Writer Problem - 读者优先)
+ * 允许多个读者同时读，但写者互斥。
+ */
+async function readerWriterSimulation() {
+    const rwMutex = new Semaphore(1);   // 保证读者和写者互斥访问文件
+    const countMutex = new Semaphore(1); // 保证对 count 变量的互斥访问
+    let readCount = 0;                  // 当前正在读的读者数量
+    let data = 100;
+
+    async function reader(id: number) {
+        for (let i = 0; i < 2; i++) {
+            await countMutex.P();       // 锁定 count
+            if (readCount === 0) {
+                await rwMutex.P();      // 第一个读者进来，锁定文件，不让写者进
+            }
+            readCount++;
+            countMutex.V();             // 释放 count
+
+            console.log(`Reader ${id} is reading data: ${data}. (Active Readers: ${readCount})`);
+            await new Promise(r => setTimeout(r, 100)); // 模拟读取过程
+
+            await countMutex.P();       // 锁定 count
+            readCount--;
+            if (readCount === 0) {
+                rwMutex.V();            // 最后一个读者走了，释放文件，写者可以进了
+            }
+            countMutex.V();             // 释放 count
+            
+            await new Promise(r => setTimeout(r, 200));
+        }
+    }
+
+    async function writer(id: number) {
+        for (let i = 0; i < 2; i++) {
+            await rwMutex.P();          // 锁定文件，既不让写者进，也不让读者进
+            data += 10;
+            console.log(`Writer ${id} is writing data: ${data}`);
+            await new Promise(r => setTimeout(r, 150)); // 模拟写入过程
+            rwMutex.V();                // 释放文件
+            
+            await new Promise(r => setTimeout(r, 300));
+        }
+    }
+
+    console.log("Starting Reader-Writer Simulation (Reader-First)...");
+    await Promise.all([
+        reader(1),
+        reader(2),
+        writer(1),
+        reader(3)
+    ]);
+    console.log("Reader-Writer Simulation Finished.");
 }
 
 // 运行模拟
-producerConsumerSimulation();
+async function main() {
+    await producerConsumerSimulation();
+    await readerWriterSimulation();
+}
+
+main();
+
