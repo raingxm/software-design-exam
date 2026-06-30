@@ -16,3 +16,4 @@
 ## 快速开始
 1. 查看 [LEARNING_PLAN.md](./LEARNING_PLAN.md) 了解整体进度。
 2. 从 [01-计算机组成与体系结构](./notes/01-computer-org/01-data-representation.md) 开始复习。
+3. [02-程序设计语言基础](./notes/02-programming-lang/01-language-fundamentals.md)
