@@ -96,6 +96,8 @@ mindmap
 
 ## 4. 文法与自动机
 
+> E/T/F 含义、LL/LR 手算与教材「人话版」见 [文法与自动机深度讲解](../deep-dives/04-grammar-automata-tutorial.md)
+
 ### 乔姆斯基文法四级
 
 从弱到强记 **3 → 2 → 1 → 0**：
