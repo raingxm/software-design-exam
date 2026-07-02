@@ -114,7 +114,7 @@
 详见 [syllabus/textbook-progress.md](./syllabus/textbook-progress.md)
 
 - [x] 第 1 章 · 计算机系统知识（2026-06-28）
-- [x] 第 2 章 · 程序设计语言基础知识（2026-06-28）
+- [x] 第 2 章 · 程序设计语言基础知识（2026-06-30 · 已学完）
 - [ ] 第 3 章 · 数据结构
 
 ## 进度追踪
@@ -124,8 +124,10 @@
   - [ ] 校验码深度计算 (海明码、CRC)
   - [ ] 非数值表示 (字符/多媒体)
   - [ ] 数学基础 (逻辑代数/排列组合/线性规划)
-- [x] 程序设计语言基础（教材第 2 章已读）
+- [x] 程序设计语言基础（教材第 2 章 · 2026-06-30 已学完）
   - [x] [语言概述、编译原理、文法与表达式](./notes/02-programming-lang/01-language-fundamentals.md)
+  - [x] [中缀 ↔ 后缀深度讲解](./notes/deep-dives/03-infix-postfix-tutorial.md)
+  - [x] [文法与自动机深度讲解](./notes/deep-dives/04-grammar-automata-tutorial.md)
 - [ ] 操作系统
   - [ ] 进程 / 调度 / 状态（6 月）
   - [ ] PV 与经典同步问题（6 月）

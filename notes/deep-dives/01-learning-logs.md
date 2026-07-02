@@ -23,3 +23,16 @@
 - [x] 更新 `LEARNING_PLAN.md` 进度。(已完成)
 - [ ] 进行一轮模拟真题测试。
 - [ ] 开启《操作系统》章节。
+
+---
+
+## Session: 2026-06-30
+### 话题：程序设计语言基础知识 — 第 2 章学习完成
+
+#### 1. 已完成内容
+- **主笔记**：[程序设计语言基础知识](../02-programming-lang/01-language-fundamentals.md)
+- **Deep-dive**：[中缀 ↔ 后缀](../deep-dives/03-infix-postfix-tutorial.md)、[文法与自动机](../deep-dives/04-grammar-automata-tutorial.md)
+- **核心考点**：编译/解释/汇编、编译六阶段、乔姆斯基文法、E/T/F 与 LL/LR、中缀后缀手算、传值传址
+
+#### 2. 下步计划
+- [ ] 开启第 3 章 · 数据结构
