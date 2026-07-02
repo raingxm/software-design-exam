@@ -111,7 +111,7 @@
 
 ## 教材阅读进度
 
-详见 [syllabus/textbook-progress.md](./syllabus/textbook-progress.md)
+详见 [syllabus/textbook-progress.md](./syllabus/textbook-progress.md) · [考试覆盖指南（12 章 vs 考纲）](./syllabus/exam-coverage-guide.md)
 
 - [x] 第 1 章 · 计算机系统知识（2026-06-28）
 - [x] 第 2 章 · 程序设计语言基础知识（2026-06-30 · 已学完）

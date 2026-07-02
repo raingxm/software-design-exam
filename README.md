@@ -9,6 +9,8 @@
 
 ## 目录索引
 - [学习计划](./LEARNING_PLAN.md)
+- [教材进度（12 章）](./syllabus/textbook-progress.md)
+- [考试覆盖指南](./syllabus/exam-coverage-guide.md)
 - [核心笔记](./notes/)
 - [代码练习](./exercises/)
 - [真题演练](./practice/)
