@@ -115,7 +115,7 @@
 
 - [x] 第 1 章 · 计算机系统知识（2026-06-28）
 - [x] 第 2 章 · 程序设计语言基础知识（2026-06-30 · 已学完）
-- [ ] 第 3 章 · 数据结构（[回顾巩固笔记](./notes/03-data-structures/01-data-structures-review.md)）
+- [x] 第 3 章 · 数据结构（2026-07-08 · [回顾巩固笔记](./notes/03-data-structures/01-data-structures-review.md) + deep-dive 手算专题）
 
 ## 进度追踪
 

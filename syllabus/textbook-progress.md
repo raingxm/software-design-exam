@@ -8,7 +8,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 2 / 12 章已学完 · 2 章复习中 |
+| **教材正文** | 3 / 12 章已学完 · 1 章复习中 |
 | **补充模块** | 0 / 5 项已启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -21,7 +21,7 @@
 |----|------|------|----------|------|------|-------------|
 | 1 | 计算机系统知识 | ✅ 已学完 | 2026-06-28 | ~6 分 | — | [notes/01-computer-org/](../notes/01-computer-org/) |
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
-| 3 | 数据结构 | 🔄 复习中 | | ~7 分 | ~15 分 | [回顾巩固笔记](../notes/03-data-structures/01-data-structures-review.md) |
+| 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | 🔄 复习中 | 2026-07-13 | ~6 分 | — | [回顾巩固笔记](../notes/02-os/04-os-review.md) · [notes/02-os/](../notes/02-os/) |
 | 5 | 软件工程基础知识 | ⬜ 未开始 | | ~11 分 | — | 含测试、维护、项目管理 |
 | 6 | 结构化开发方法 | ⬜ 未开始 | | ~2 分 | ~15 分 | DFD、WebApp；下午数据流图 |
@@ -76,6 +76,7 @@
 |------|----------|
 | 2026-07-13 | 第 4 章：HRRN 五作业手算已掌握；回顾笔记补正确例题 |
 | 2026-07-13 | 第 4 章操作系统：教材已读完，新增回顾巩固笔记，标记为复习中 |
+| 2026-07-08 | 第 3 章学习完成：手算专题（循环队列/树还原/快排/哈夫曼/堆排序）+ 自测 6 题中 5 题闭卷过关 |
 | 2026-07-02 | 进度表重构：对齐官方 12 章 + 补充模块；第 3 章数据结构标记为复习中 |
 | 2026-07-02 | 第 3 章回顾巩固笔记：数据结构考点速查 + 自测题 |
 | 2026-06-30 | 第 2 章学习完成：主笔记、中缀后缀与文法自动机 deep-dive |
