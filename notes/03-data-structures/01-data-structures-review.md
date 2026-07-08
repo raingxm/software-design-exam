@@ -211,7 +211,7 @@ mindmap
 | 希尔 | — | — | O(1) | ❌ | 分组插入 |
 | 快速 | O(n log n) | **O(n²)** | O(log n) | ❌ | 枢轴、分区（[第一趟手算](../deep-dives/07-quicksort-partition-tutorial.md)） |
 | 归并 | O(n log n) | O(n log n) | **O(n)** | ✅ | 分治 |
-| 堆排序 | O(n log n) | O(n log n) | O(1) | ❌ | 建堆、调整 |
+| 堆排序 | O(n log n) | O(n log n) | O(1) | ❌ | 建堆、调整（[建堆 + 只下沉堆顶](../deep-dives/11-heapsort-tutorial.md)） |
 
 **稳定排序**：冒泡、插入、归并、基数  
 **不稳定**：选择、快速、堆、希尔
