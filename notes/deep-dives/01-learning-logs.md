@@ -36,3 +36,18 @@
 
 #### 2. 下步计划
 - [ ] 开启第 3 章 · 数据结构
+
+---
+
+## Session: 2026-07-08
+### 话题：数据结构 — 四个手算难点深化
+
+#### 1. 已完成内容
+- **Deep-dive**：[循环队列](../deep-dives/05-circular-queue-tutorial.md)、[树还原](../deep-dives/06-tree-reconstruction-tutorial.md)、[快排分区](../deep-dives/07-quicksort-partition-tutorial.md)、[哈夫曼树](../deep-dives/08-huffman-tree-tutorial.md)
+- **主笔记链接**：已回链到 [数据结构回顾巩固](../03-data-structures/01-data-structures-review.md)
+- **勘误**：自测题 6 WPL 修正为 56
+
+#### 2. 下步计划
+- [ ] 重做主笔记 6 道自测题（不看答案）
+- [ ] 排序稳定性 + 二分查找各练 2 题
+- [ ] 第 4 章 OS 并行推进
