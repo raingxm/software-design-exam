@@ -39,6 +39,8 @@
 2. **先进先出 (FIFO)**: 可能产生 **Belady 异常**（分配页框越多，缺页率反而越高）。
 3. **最近最久未使用 (LRU)**: 性能接近 Optimal，是实际应用中最常用的。
 
+> 深化：[FIFO / LRU 手算与 Belady 异常](../deep-dives/13-page-replacement-tutorial.md)
+
 ---
 
 ## 4. 磁盘管理
