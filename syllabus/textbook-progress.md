@@ -1,8 +1,9 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-07-13  
-> 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)
+> 依据 2018 年版考试大纲 · 最后更新：2026-07-21  
+> 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
+> **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
 ## 总览
 
@@ -22,7 +23,7 @@
 | 1 | 计算机系统知识 | ✅ 已学完 | 2026-06-28 | ~6 分 | — | [notes/01-computer-org/](../notes/01-computer-org/) |
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
-| 4 | 操作系统知识 | 🔄 复习中 | 2026-07-13 | ~6 分 | — | [回顾巩固笔记](../notes/02-os/04-os-review.md) · [notes/02-os/](../notes/02-os/) |
+| 4 | 操作系统知识 | 🔄 复习中 | 2026-07-13 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md)；P0 手算已过：置换/索引/SCAN·LOOK；下次 **PV** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 5 | 软件工程基础知识 | ⬜ 未开始 | | ~11 分 | — | 含测试、维护、项目管理 |
 | 6 | 结构化开发方法 | ⬜ 未开始 | | ~2 分 | ~15 分 | DFD、WebApp；下午数据流图 |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
@@ -74,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-21 | 交接看板：记录第 4 章进展与晚上续学 TODO（PV 优先） |
 | 2026-07-21 | 第 4 章：SCAN/LOOK 概念过关；更正回顾题「302=SCAN」误标；新增 [磁盘调度 deep-dive](../notes/deep-dives/15-disk-scheduling-tutorial.md) |
 | 2026-07-21 | 第 4 章：多级索引手算模板过关（改参 2 题 + 回顾自测题 3）；新增 [多级索引 deep-dive](../notes/deep-dives/14-multi-level-index-tutorial.md) |
 | 2026-07-21 | 第 4 章：页面置换 FIFO/LRU 回顾自测题 2 闭卷过关（9/10）；新增 [页面置换 deep-dive](../notes/deep-dives/13-page-replacement-tutorial.md) |
