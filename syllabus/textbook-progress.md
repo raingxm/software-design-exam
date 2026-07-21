@@ -74,6 +74,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-21 | 第 4 章：SCAN/LOOK 概念过关；更正回顾题「302=SCAN」误标；新增 [磁盘调度 deep-dive](../notes/deep-dives/15-disk-scheduling-tutorial.md) |
 | 2026-07-21 | 第 4 章：多级索引手算模板过关（改参 2 题 + 回顾自测题 3）；新增 [多级索引 deep-dive](../notes/deep-dives/14-multi-level-index-tutorial.md) |
 | 2026-07-21 | 第 4 章：页面置换 FIFO/LRU 回顾自测题 2 闭卷过关（9/10）；新增 [页面置换 deep-dive](../notes/deep-dives/13-page-replacement-tutorial.md) |
 | 2026-07-13 | 第 4 章：HRRN 五作业手算已掌握；回顾笔记补正确例题 |

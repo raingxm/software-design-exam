@@ -49,5 +49,7 @@
 - **磁盘调度算法**:
     - FCFS (先来先服务)
     - SSTF (最短寻道时间优先)
-    - SCAN (电梯算法)
-    - LOOK
+    - SCAN (电梯：到**边界**再反向)
+    - LOOK (到当前方向**最后一个请求**再反向)
+
+> 深化：[SCAN / LOOK 手算](../deep-dives/15-disk-scheduling-tutorial.md)
