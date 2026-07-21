@@ -18,6 +18,16 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-07-21 · OS 收尾 · 12 题
+
+- **来源**：[drills/02-os-12q.md](./drills/02-os-12q.md)
+- **限时**：闭卷自测
+- **得分**：11 / 12
+- **错题**：
+  - 12 → [OS 回顾 · DMA/SPOOLing](../notes/02-os/04-os-review.md) · 误选 DMA 需 CPU 介入；正解是 SPOOLing 独占→共享
+- **备注**：题 6 答 D=7 正确（答案卷曾误标 6，已勘误）
+- **结论**：第 4 章标「已学完」
+
 ### 计组摸底 · 30 题
 
 - **来源**：[drills/01-computer-org-30q.md](./drills/01-computer-org-30q.md)

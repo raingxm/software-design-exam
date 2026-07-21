@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 3 / 12 章已学完 · 1 章复习中 |
+| **教材正文** | 4 / 12 章已学完 |
 | **补充模块** | 0 / 5 项已启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -23,7 +23,7 @@
 | 1 | 计算机系统知识 | ✅ 已学完 | 2026-06-28 | ~6 分 | — | [notes/01-computer-org/](../notes/01-computer-org/) |
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
-| 4 | 操作系统知识 | 🔄 复习中 | 2026-07-13 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md)；回顾自测 1～6 已闭卷；下次 **近 3 年 OS 真题收尾** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
+| 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 5 | 软件工程基础知识 | ⬜ 未开始 | | ~11 分 | — | 含测试、维护、项目管理 |
 | 6 | 结构化开发方法 | ⬜ 未开始 | | ~2 分 | ~15 分 | DFD、WebApp；下午数据流图 |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
@@ -75,6 +75,8 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-21 | 补强死锁四条件 / 页段碎片 / DMA·SPOOLing 易混说明；收尾卷 11/12 过关，第 4 章标已学完 |
+| 2026-07-21 | 第 4 章收尾卷 11/12 过关，标「已学完」；勘误题 6 FIFO 短序列为 7 次缺页 |
 | 2026-07-21 | 晚间：PV 手算×2 + 产消死锁、回顾题 5/6 闭卷过关；交接看板改为真题收尾 / 下章网络 |
 | 2026-07-21 | 交接看板：记录第 4 章进展与晚上续学 TODO（PV 优先） |
 | 2026-07-21 | 第 4 章：SCAN/LOOK 概念过关；更正回顾题「302=SCAN」误标；新增 [磁盘调度 deep-dive](../notes/deep-dives/15-disk-scheduling-tutorial.md) |

@@ -61,8 +61,10 @@ graph LR
 ### 死锁产生的四个必要条件
 1. **互斥** (Mutual Exclusion)
 2. **请求与保持** (Hold and Wait)
-3. **不可剥夺** (No Preemption)
+3. **不可剥夺** (No Preemption) — 易混：干扰项「可剥夺」**不是**条件
 4. **循环等待** (Circular Wait)
+
+口诀：互斥、握着还要、不能抢、等成环。详见 [回顾 · 死锁](./04-os-review.md#四死锁)。
 
 ### 预防与避免
 - **银行家算法 (Banker's Algorithm)**：著名的死锁避免算法。
