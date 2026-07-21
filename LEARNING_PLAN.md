@@ -117,6 +117,7 @@
 - [x] 第 2 章 · 程序设计语言基础知识（2026-06-30 · 已学完）
 - [x] 第 3 章 · 数据结构（2026-07-08 · [回顾巩固笔记](./notes/03-data-structures/01-data-structures-review.md) + deep-dive 手算专题）
 - [x] 第 4 章 · 操作系统知识（2026-07-21 · [回顾](./notes/02-os/04-os-review.md) + 收尾卷 11/12）
+- [ ] 第 5 章 · 软件工程基础知识（教材 2026-07-21 已读 · [回顾巩固](./notes/05-software-engineering/01-software-engineering-review.md) · 复习中）
 
 ## 进度追踪
 
@@ -137,7 +138,9 @@
   - [ ] 死锁与银行家算法（7 月）
 - [ ] 计算机网络
 - [ ] 数据库系统
-- [ ] 软件工程
+- [ ] 软件工程（第 5 章教材已读 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md)）
+  - [ ] 生命周期模型 / 测试级别 / 维护类型
+  - [ ] 耦合内聚 · PERT 关键路径 · CMMI
 - [ ] 结构化分析与设计
 - [ ] 面向对象分析与设计 (UML)
 - [ ] 设计模式

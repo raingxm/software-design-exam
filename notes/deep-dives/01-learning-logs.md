@@ -2,38 +2,35 @@
 
 > ## 交接看板 · 2026-07-21 晚（换机续学请先看这里）
 >
-> **当前章节**：第 4 章操作系统 · ✅ **已学完**（2026-07-21）  
-> **下一章候选**：第 10 章网络（优先）或 第 5 章软工  
-> **入口**：进度表 [textbook-progress](../../syllabus/textbook-progress.md) · OS 回顾 [04-os-review](../02-os/04-os-review.md)
+> **当前章节**：第 5 章软件工程 · 🔄 **教材已读**，回顾笔记已落盘（待深挖/收尾卷）  
+> **上一章**：第 4 章操作系统 · ✅ 已学完（2026-07-21）  
+> **入口**：软工回顾 [01-software-engineering-review](../05-software-engineering/01-software-engineering-review.md) · 进度表 [textbook-progress](../../syllabus/textbook-progress.md)
 >
 > ### 今日已完成（2026-07-21）
 > | 主题 | 状态 | 笔记 |
 > |------|------|------|
-> | 页面置换 FIFO/LRU | ✅ 闭卷过关（9/10） | [13-page-replacement](./13-page-replacement-tutorial.md) |
-> | 多级索引最大文件 | ✅ 模板+改参+验收 | [14-multi-level-index](./14-multi-level-index-tutorial.md) |
-> | 磁盘 SCAN / LOOK | ✅ 概念过关；更正「302≠SCAN」 | [15-disk-scheduling](./15-disk-scheduling-tutorial.md) |
-> | PV 手算 + 死锁顺序 | ✅ 序列×2 + 产消 mutex 顺序 | [11-pv-operation](./11-pv-operation-tutorial.md) |
-> | 回顾题 5 HRRN / 题 6 状态 | ✅ 闭卷；题 6 纠正为就绪 | 回顾笔记内 |
-> | **OS 收尾卷 12 题** | ✅ **11/12**（错 12：DMA/SPOOLing） | [02-os-12q](../../practice/drills/02-os-12q.md) |
+> | OS 收尾（午前） | ✅ 11/12 过关，第 4 章已学完 | [02-os-12q](../../practice/drills/02-os-12q.md) |
+> | 第 5 章教材通读 | ✅ 已读完 | — |
+> | 第 5 章重点考点深入讨论 | ✅ 已落盘回顾笔记 | [01-software-engineering-review](../05-software-engineering/01-software-engineering-review.md) |
 >
-> **口令速记**  
-> - 索引：\(N=B/a\) → 各级 ×\(B\) → **全加**  
-> - LOOK 到末请求 / SCAN 到墙；LOOK **302**、SCAN **334**  
-> - FIFO 命中不动队；Belady 仅 FIFO  
-> - PV：先资源再 mutex；阻塞只能到就绪  
-> - HRRN：`R=1+W/S`；非抢占 = 跑完再选  
-> - **DMA**：数据不经 CPU；**SPOOLing**：独占→共享
+> **软工口令速记**  
+> - 模型：需求不清→原型；风险高→螺旋；分批交付→增量；常变→敏捷  
+> - V 模型：需求↔验收，概要↔系统，详细↔集成，编码↔单元  
+> - 维护：改 bug→改正；换环境→适应；加功能→完善；重构防患→预防  
+> - 白盒强度：语句 < 判定 < 条件 < 判定/条件 < 路径  
+> - CMMI：2 项目级 / 3 组织级标准过程  
+> - 耦合最差=内容；内聚最好=功能
 >
-> ### TODO（下次会话）
-> - [ ] **开第 10 章网络**（建议）：子网划分手算 + TCP/UDP 对比表  
-> - [ ] 或开第 5 章软工：生命周期 / 测试级别 / 维护类型脑图  
-> - [ ] 可选：OS 错题 12 口头复述一遍即可  
-> - [x] 题 4/5/12 概念加深已写入回顾笔记（死锁可剥夺陷阱、页/段碎片、DMA≠SPOOLing）
+> ### TODO（下次会话 · 明天）
+> - [ ] 通读 [软工回顾笔记](../05-software-engineering/01-software-engineering-review.md) §一～§六，模糊处打 `?`
+> - [ ] 深挖一块（建议：**测试** 或 **过程模型**）—— 开场白见下
+> - [ ] 可选：维护四类型 + CMMI 五级闭卷默写；关键路径手算 1 题
+> - [ ] 之后：开第 10 章网络，或做第 5 章收尾选择卷再标「已学完」
 >
 > ### 换机操作
 > 1. 本机已 `git push` 后：另一台 `git pull`  
 > 2. 打开本文件置顶看板  
-> 3. 建议开场白：「开第 10 章网络，从子网划分开始」
+> 3. 建议开场白：「继续第 5 章，深挖测试（或过程模型）」
 
 ---
 
