@@ -24,7 +24,7 @@
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
-| 5 | 软件工程基础知识 | 🔄 复习中 | 教材 2026-07-21 已读 | ~11 分 | — | [回顾巩固](../notes/05-software-engineering/01-software-engineering-review.md)；待深挖/收尾卷 |
+| 5 | 软件工程基础知识 | 🔄 复习中 | 教材 2026-07-21 已读 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 ✅ [16](../notes/deep-dives/16-process-models-tutorial.md) · **下一块：测试** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 6 | 结构化开发方法 | ⬜ 未开始 | | ~2 分 | ~15 分 | DFD、WebApp；下午数据流图 |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
 | 8 | 算法设计与分析 | ⬜ 未开始 | | ~1 分 | — | 分治/动态规划等；下午算法题 |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-21 | 收工交接：过程模型 6 题过关；明天优先深挖测试；看板/回顾 §九 已更新 |
 | 2026-07-21 | 第 5 章教材已读；新增 [软工回顾笔记](../notes/05-software-engineering/01-software-engineering-review.md)，标「复习中」 |
 | 2026-07-21 | 补强死锁四条件 / 页段碎片 / DMA·SPOOLing 易混说明；收尾卷 11/12 过关，第 4 章标已学完 |
 | 2026-07-21 | 第 4 章收尾卷 11/12 过关，标「已学完」；勘误题 6 FIFO 短序列为 7 次缺页 |
