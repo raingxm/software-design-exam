@@ -1,7 +1,7 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-07-21  
+> 依据 2018 年版考试大纲 · 最后更新：2026-07-22  
 > 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
 > **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 4 / 12 章已学完 · 第 5 章复习中 |
+| **教材正文** | 5 / 12 章已学完 |
 | **补充模块** | 0 / 5 项已启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -24,7 +24,7 @@
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
-| 5 | 软件工程基础知识 | 🔄 复习中 | 教材 2026-07-21 已读 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 ✅ [16](../notes/deep-dives/16-process-models-tutorial.md) · **下一块：测试** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
+| 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 6 | 结构化开发方法 | ⬜ 未开始 | | ~2 分 | ~15 分 | DFD、WebApp；下午数据流图 |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
 | 8 | 算法设计与分析 | ⬜ 未开始 | | ~1 分 | — | 分治/动态规划等；下午算法题 |
@@ -75,6 +75,8 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-22 | 补充 [18 · V 模型与集成策略对比](../notes/deep-dives/18-v-model-integration-tutorial.md)（概要↔系统、顶向下→桩） |
+| 2026-07-22 | 测试深挖 + 收尾 10/12；第 5 章标已学完；新增 [17-software-testing](../notes/deep-dives/17-software-testing-tutorial.md) |
 | 2026-07-21 | 收工交接：过程模型 6 题过关；明天优先深挖测试；看板/回顾 §九 已更新 |
 | 2026-07-21 | 第 5 章教材已读；新增 [软工回顾笔记](../notes/05-software-engineering/01-software-engineering-review.md)，标「复习中」 |
 | 2026-07-21 | 补强死锁四条件 / 页段碎片 / DMA·SPOOLing 易混说明；收尾卷 11/12 过关，第 4 章标已学完 |
