@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 5 / 12 章已学完 · 第 6 章 DFD 概念进行中 |
+| **教材正文** | 5 / 12 章已学完 · 第 6 章进行中（DFD + 变换/事务） |
 | **补充模块** | 1 / 5 项已启动（下午 · DFD） |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -25,7 +25,7 @@
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
-| 6 | 结构化开发方法 | 🔄 进行中 | | ~2 分 | ~15 分 | 教材已读；DFD 概念迷你题过关 → [19-dfd](../notes/deep-dives/19-dfd-tutorial.md)；耦合/变换事务/WebApp 未收尾 |
+| 6 | 结构化开发方法 | 🔄 进行中 | | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) ✅ · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) ✅ · 耦合场景/WebApp 未收尾 |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
 | 8 | 算法设计与分析 | ⬜ 未开始 | | ~1 分 | — | 分治/动态规划等；下午算法题 |
 | 9 | 数据库技术基础 | ⬜ 未开始 | | ~6 分 | ~15 分 | ER、范式、SQL、事务 |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-07-22 | 晚间收工：变换/事务辨型过关，新增 [20](../notes/deep-dives/20-transform-transaction-tutorial.md)；明天主线网络 |
 | 2026-07-22 | 晚间：DFD 概念收尾（缺流/缺实体/父子平衡）；新增 [19-dfd](../notes/deep-dives/19-dfd-tutorial.md)；第 6 章与下午 DFD 标进行中 |
 | 2026-07-22 | 补充 [18 · V 模型与集成策略对比](../notes/deep-dives/18-v-model-integration-tutorial.md)（概要↔系统、顶向下→桩） |
 | 2026-07-22 | 测试深挖 + 收尾 10/12；第 5 章标已学完；新增 [17-software-testing](../notes/deep-dives/17-software-testing-tutorial.md) |
