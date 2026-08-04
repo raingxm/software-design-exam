@@ -119,5 +119,5 @@ DFD 画「有哪些箭」；字典说明箭上**装着什么数据项**。
 | 变换 / 事务 | ✅ [20](./20-transform-transaction-tutorial.md) |
 | 耦合 / 内聚 | ✅ [21](./21-coupling-cohesion-tutorial.md) |
 | 数据字典 / 判定表 | ✅ 本文 |
-| WebApp | ⏳ 略读 |
+| WebApp | ✅ [23](./23-webapp-tutorial.md) |
 | DFD 真题整题 | ⏳ 提分关键 |

@@ -60,7 +60,7 @@
 
 - 变换分析 / 事务分析 → ✅ [20-transform-transaction](./20-transform-transaction-tutorial.md)  
 - 耦合 / 内聚 → 第 5 章已有骨架，场景题另开  
-- WebApp 分析设计 → 略读，不挡 DFD  
+- WebApp 分析设计 → ✅ [23-webapp](./23-webapp-tutorial.md)  
 
 **缺加工小例子（未练，一眼认）**  
 说明写「先校验会员，再扣积分」，图上只有一个「结账」、没有「校验会员」→ 往往要**补加工**（有时还带进出流一起补）。
