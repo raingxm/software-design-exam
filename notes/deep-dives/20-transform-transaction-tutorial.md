@@ -62,6 +62,6 @@
 | DFD 概念 | ✅ [19](./19-dfd-tutorial.md) |
 | 变换 / 事务 | ✅ 本文 |
 | 耦合 / 内聚场景 | ✅ [21](./21-coupling-cohesion-tutorial.md) |
-| 数据字典 / 判定表 | ⏳ 认即可 |
+| 数据字典 / 判定表 | ✅ [22](./22-data-dict-decision-table-tutorial.md) |
 | WebApp | ⏳ 略读 |
 | DFD 真题整题 | ⏳ 稍后限时 1 道 |
