@@ -140,7 +140,8 @@
 - [ ] 数据库系统
 - [x] 软件工程（第 5 章 · 2026-07-22 已学完 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md)）
   - [x] 生命周期模型 / 测试级别 / 维护类型 / CMMI（收尾卷）
-  - [ ] 耦合内聚 · PERT 关键路径（可选巩固，不挡学完）
+  - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
+  - [ ] PERT 关键路径（可选巩固，不挡学完）
 - [ ] 结构化分析与设计
 - [ ] 面向对象分析与设计 (UML)
 - [ ] 设计模式

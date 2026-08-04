@@ -90,6 +90,8 @@ mindmap
 
 ### 3. 模块化：耦合与内聚（和第 6 章交界，第 5 章也常考）
 
+> **深挖**：[耦合 · 内聚场景辨型](../deep-dives/21-coupling-cohesion-tutorial.md)（2026-08-04 过关）
+
 目标：**高内聚、低耦合**。
 
 **耦合从低到高（越好 → 越差）**大致：
@@ -263,7 +265,7 @@ T_e = \frac{乐观 + 4\times最可能 + 悲观}{6}
 
 1. ~~**过程模型**场景对比~~ ✅ 2026-07-21 过关 → [16-process-models](../deep-dives/16-process-models-tutorial.md)
 2. ~~**测试**（黑盒边界 + 白盒覆盖强度反例）~~ ✅ 2026-07-22 过关 → [17-software-testing](../deep-dives/17-software-testing-tutorial.md) · 收尾 [05-se-12q](../../practice/drills/05-se-12q.md) **10/12** · 课后补 [18 · V/集成](../deep-dives/18-v-model-integration-tutorial.md)
-3. **耦合内聚**排序题专项（可选巩固）
+3. ~~**耦合内聚**排序题专项~~ ✅ 2026-08-04 过关 → [21-coupling-cohesion](../deep-dives/21-coupling-cohesion-tutorial.md)
 4. **PERT 关键路径**手算模板（可选）
 5. **CMMI + 质量特性**速记与易混（收尾卷已过，可选闪卡）
 
