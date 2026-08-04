@@ -84,4 +84,4 @@
 | 耦合 / 内聚 | ✅ [21](./21-coupling-cohesion-tutorial.md) |
 | 数据字典 / 判定表 | ✅ [22](./22-data-dict-decision-table-tutorial.md) |
 | WebApp | ✅ 本文 |
-| DFD 真题整题 | ⏳ 概念够了，限时补全才提分 |
+| DFD 真题整题 | ⏳ 自编①②已练；欠官方印刷图 |

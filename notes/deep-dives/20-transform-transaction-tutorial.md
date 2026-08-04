@@ -64,4 +64,4 @@
 | 耦合 / 内聚场景 | ✅ [21](./21-coupling-cohesion-tutorial.md) |
 | 数据字典 / 判定表 | ✅ [22](./22-data-dict-decision-table-tutorial.md) |
 | WebApp | ✅ [23](./23-webapp-tutorial.md) |
-| DFD 真题整题 | ⏳ 稍后限时 1 道 |
+| DFD 真题整题 | ⏳ 自编①②已练；欠官方印刷图 |

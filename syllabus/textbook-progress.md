@@ -1,7 +1,7 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-08-04  
+> 依据 2018 年版考试大纲 · 最后更新：2026-08-05  
 > 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
 > **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 5 / 12 章已学完 · 第 6 章进行中（概念块齐，欠 DFD 真题） |
+| **教材正文** | 5 / 12 章已学完 · 第 6 章进行中（概念齐 · DFD 自编×2 · 欠官方印刷真题） |
 | **补充模块** | 1 / 5 项已启动（下午 · DFD） |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -25,7 +25,7 @@
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
-| 6 | 结构化开发方法 | 🔄 进行中 | | ~2 分 | ~15 分 | 概念块齐：DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · **欠 DFD 真题 1 道** |
+| 6 | 结构化开发方法 | 🔄 进行中 | | ~2 分 | ~15 分 | 概念块齐 + DFD 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md)；[19](../notes/deep-dives/19-dfd-tutorial.md) 含加工专项与读题防晕 · **欠官方印刷真题** |
 | 7 | 面向对象技术 | ⬜ 未开始 | | ~13 分 | ~15 分 | UML、设计模式；下午类图/用例图 |
 | 8 | 算法设计与分析 | ⬜ 未开始 | | ~1 分 | — | 分治/动态规划等；下午算法题 |
 | 9 | 数据库技术基础 | ⬜ 未开始 | | ~6 分 | ~15 分 | ER、范式、SQL、事务 |
@@ -44,7 +44,7 @@
 | 模块 | 对应考试 | 建议时机 | 状态 | 备注 |
 |------|----------|----------|------|------|
 | 专业英语 | 上午 ~5 题 | 考前 2～3 周 | ⬜ 未开始 | 缩写表 + 近 3 年真题 |
-| 下午 · 数据流图（DFD） | 下午选 1 | 第 6 章后 | 🔄 进行中 | 概念过关（缺流/缺实体/平衡）；下一步：真题 1 道补全 · [19-dfd](../notes/deep-dives/19-dfd-tutorial.md) |
+| 下午 · 数据流图（DFD） | 下午选 1 | 第 6 章后 | 🔄 进行中 | 概念+加工专项+自编整题×2；下一步：官方印刷图 1 道 · [19](../notes/deep-dives/19-dfd-tutorial.md) · [①](../practice/drills/06-dfd-drill.md) · [②](../practice/drills/06-dfd-drill-2.md) |
 | 下午 · 数据库设计 | 下午选 1 | 第 9 章后 | ⬜ 未开始 | ER → 关系模式 |
 | 下午 · UML 建模 | 下午选 1 | 第 7 章后 | ⬜ 未开始 | 类图、用例图、状态图 |
 | 下午 · 算法编程（C/C++/Java） | 下午选 1 | 第 3、8 章后 | ⬜ 未开始 | 教程不教语法，靠真题 + 专项练习 |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-05 | DFD 加工专项 + 读题防晕写入 [19](../notes/deep-dives/19-dfd-tutorial.md)；自编整题 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md)；第 6 章仍不标学完 |
 | 2026-08-04 | WebApp 略读过关，新增 [23](../notes/deep-dives/23-webapp-tutorial.md)；第 6 章概念块齐，欠 DFD 真题 |
 | 2026-08-04 | 数据字典/判定表认读过关，新增 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) |
 | 2026-08-04 | 耦合/内聚场景辨型过关，新增 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md)；第 6 章再点亮一块 |

@@ -120,4 +120,4 @@ DFD 画「有哪些箭」；字典说明箭上**装着什么数据项**。
 | 耦合 / 内聚 | ✅ [21](./21-coupling-cohesion-tutorial.md) |
 | 数据字典 / 判定表 | ✅ 本文 |
 | WebApp | ✅ [23](./23-webapp-tutorial.md) |
-| DFD 真题整题 | ⏳ 提分关键 |
+| DFD 真题整题 | ⏳ 自编①②已练；欠官方印刷图 |
