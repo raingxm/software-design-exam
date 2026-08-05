@@ -119,7 +119,8 @@
 - [x] 第 4 章 · 操作系统知识（2026-07-21 · [回顾](./notes/02-os/04-os-review.md) + 收尾卷 11/12）
 - [x] 第 5 章 · 软件工程基础知识（2026-07-22 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md) + 测试 deep-dive · 收尾 10/12）
 - [x] 第 6 章 · 结构化开发方法（2026-08-05 · DFD/变换事务/耦合内聚/字典判定表/WebApp · 官方 DFD 后补）
-- [ ] 第 7 章 · 面向对象技术（🔄 · [开场入口](./notes/07-oop/01-oop-uml-review.md)）
+- [x] 第 7 章 · 面向对象技术（2026-08-06 · [24](./notes/deep-dives/24-oo-concepts-tutorial.md)～[28](./notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 官方 UML 后补）
+- [ ] 第 8 章 · 算法设计与分析（🔄 · [开场入口](./notes/08-algorithms/01-algorithms-entry.md)）
 
 ## 进度追踪
 
@@ -145,8 +146,8 @@
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
   - [ ] PERT 关键路径（可选巩固，不挡学完）
 - [x] 结构化分析与设计（第 6 章 · 2026-08-05 已学完 · 官方 DFD 后补）
-- [ ] 面向对象分析与设计 (UML)（第 7 章 · [开场](./notes/07-oop/01-oop-uml-review.md)）
-- [ ] 设计模式
-- [ ] 数据结构与算法
+- [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完 · 官方 UML 后补）
+- [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
+- [ ] 数据结构与算法（第 3 章已完；第 8 章策略 · [开场](./notes/08-algorithms/01-algorithms-entry.md)）
 - [ ] 法律法规与标准化
 - [ ] 专业英语
