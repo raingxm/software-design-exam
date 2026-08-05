@@ -26,7 +26,7 @@
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 6 | 结构化开发方法 | ✅ 已学完 | 2026-08-05 | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md) · **官方 DFD 印刷图后补** |
-| 7 | 面向对象技术 | 🔄 进行中 | | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · OO [24](../notes/deep-dives/24-oo-concepts-tutorial.md) ✅ · 类图 [25](../notes/deep-dives/25-class-diagram-relations-tutorial.md) ✅ · 用例 [26](../notes/deep-dives/26-usecase-diagram-tutorial.md) ✅ · 下一步：序列/状态 或 设计模式 |
+| 7 | 面向对象技术 | 🔄 进行中 | | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)/[25](../notes/deep-dives/25-class-diagram-relations-tutorial.md)/[26](../notes/deep-dives/26-usecase-diagram-tutorial.md)/[27](../notes/deep-dives/27-design-patterns-tutorial.md) ✅ · 欠序列/状态认图与下午真题 |
 | 8 | 算法设计与分析 | ⬜ 未开始 | | ~1 分 | — | 分治/动态规划等；下午算法题 |
 | 9 | 数据库技术基础 | ⬜ 未开始 | | ~6 分 | ~15 分 | ER、范式、SQL、事务 |
 | 10 | 网络与信息安全基础知识 | ⬜ 未开始 | | ~6 分 | — | 子网划分、TCP/UDP、加密 |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-05 | 设计模式六高频过关，新增 [27](../notes/deep-dives/27-design-patterns-tutorial.md)；第 7 章 P0+模式齐 |
 | 2026-08-05 | 用例图辨型过关，新增 [26](../notes/deep-dives/26-usecase-diagram-tutorial.md)；下一步序列/状态或设计模式 |
 | 2026-08-05 | 类图六种关系辨型过关，新增 [25](../notes/deep-dives/25-class-diagram-relations-tutorial.md)；下一步用例图 |
 | 2026-08-05 | OO 概念辨型过关，新增 [24](../notes/deep-dives/24-oo-concepts-tutorial.md)；下一步类图关系 |

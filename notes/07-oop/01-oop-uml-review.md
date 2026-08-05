@@ -78,14 +78,11 @@ mindmap
 - [x] OO 概念 → [24](../deep-dives/24-oo-concepts-tutorial.md)
 - [x] 类图六种关系 → [25](../deep-dives/25-class-diagram-relations-tutorial.md)
 - [x] 用例图 → [26](../deep-dives/26-usecase-diagram-tutorial.md)
+- [x] 设计模式六高频 → [27](../deep-dives/27-design-patterns-tutorial.md)
 
-**下一刀（二选一）**：序列图/状态图认图 · 或 · 设计模式闪卡
+**下一刀**：序列图/状态图认图（P1）· 或 · 下午 UML 真题读图
 
 续学开场白：
-```text
-开始设计模式
-```
-或
 ```text
 开始序列图与状态图
 ```
