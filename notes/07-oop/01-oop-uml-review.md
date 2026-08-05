@@ -72,11 +72,15 @@ mindmap
 - [x] 能区分：重载 vs 重写
 - [x] 能区分：抽象类 vs 接口（软考口径）
 
-**下一刀**：类图六种关系（关联 / 聚合 / 组合 / 依赖 / 泛化 / 实现）
+**下一刀**：用例图（参与者、包含/扩展/泛化）
+
+已过关：
+- [x] OO 概念 → [24](../deep-dives/24-oo-concepts-tutorial.md)
+- [x] 类图六种关系 → [25](../deep-dives/25-class-diagram-relations-tutorial.md)
 
 续学开场白：
 ```text
-开始类图关系
+开始用例图
 ```
 
 ---
