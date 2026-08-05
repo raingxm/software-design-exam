@@ -118,6 +118,8 @@
 - [x] 第 3 章 · 数据结构（2026-07-08 · [回顾巩固笔记](./notes/03-data-structures/01-data-structures-review.md) + deep-dive 手算专题）
 - [x] 第 4 章 · 操作系统知识（2026-07-21 · [回顾](./notes/02-os/04-os-review.md) + 收尾卷 11/12）
 - [x] 第 5 章 · 软件工程基础知识（2026-07-22 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md) + 测试 deep-dive · 收尾 10/12）
+- [x] 第 6 章 · 结构化开发方法（2026-08-05 · DFD/变换事务/耦合内聚/字典判定表/WebApp · 官方 DFD 后补）
+- [ ] 第 7 章 · 面向对象技术（🔄 · [开场入口](./notes/07-oop/01-oop-uml-review.md)）
 
 ## 进度追踪
 
@@ -142,8 +144,8 @@
   - [x] 生命周期模型 / 测试级别 / 维护类型 / CMMI（收尾卷）
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
   - [ ] PERT 关键路径（可选巩固，不挡学完）
-- [ ] 结构化分析与设计
-- [ ] 面向对象分析与设计 (UML)
+- [x] 结构化分析与设计（第 6 章 · 2026-08-05 已学完 · 官方 DFD 后补）
+- [ ] 面向对象分析与设计 (UML)（第 7 章 · [开场](./notes/07-oop/01-oop-uml-review.md)）
 - [ ] 设计模式
 - [ ] 数据结构与算法
 - [ ] 法律法规与标准化
