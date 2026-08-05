@@ -2,26 +2,39 @@
 
 > ## 交接看板 · 2026-08-05（第 6 章学完 · 换机续学请先看这里）
 >
-> **当前章节**：第 6 章 ✅ · **第 7 章 🔄**（OO ✅ · 类图关系 ✅ · 下一步用例图）  
-> **主入口**：[25 类图](./25-class-diagram-relations-tutorial.md) · [24 OO](./24-oo-concepts-tutorial.md) · [开场](../07-oop/01-oop-uml-review.md)
+> **当前章节**：第 6 章 ✅ · **第 7 章 🔄**（OO ✅ · 类图 ✅ · 用例 ✅）  
+> **主入口**：[26 用例](./26-usecase-diagram-tutorial.md) · [开场](../07-oop/01-oop-uml-review.md)
 >
 > ### 今日已完成（2026-08-05）
 > | 时段 | 主题 | 状态 | 笔记 |
 > |------|------|------|------|
-> | 晚间① | OO 概念 5/5 | ✅ | [24](./24-oo-concepts-tutorial.md) |
-> | 晚间② | 类图六种关系 6/6 | ✅ | [25](./25-class-diagram-relations-tutorial.md) |
+> | 晚间 | OO / 类图 / 用例 | ✅ 5+6+5 | [24](./24-oo-concepts-tutorial.md) · [25](./25-class-diagram-relations-tutorial.md) · [26](./26-usecase-diagram-tutorial.md) |
 >
-> **类图口令**  
-> - 依赖虚线临时；关联实线长期；空心菱聚合；实心菱组合  
-> - 实线三角继承；虚线三角实现
+> **用例口令**  
+> - include：基→必做；extend：扩展→基（可选）；泛化：子→父  
+> - 参与者在边界外
 >
 > ### TODO（续学）
-> 1. [ ] **主线**：用例图（包含/扩展/泛化）  
-> 2. [ ] （穿插）设计模式闪卡 / 官方 DFD  
+> 1. [ ] 序列图/状态图认图 **或** 设计模式闪卡  
+> 2. [ ] （穿插）官方 DFD / 下午 UML 真题读图  
 >
 > ### 换机操作
-> 1. `git push` → `git pull` → 打开本看板  
-> 2. **建议开场白**：「开始用例图」
+> 1. `git push` → `git pull`  
+> 2. **开场白**：「开始设计模式」或「开始序列图与状态图」
+
+---
+
+## Session: 2026-08-05（晚·用例图）
+### 话题：include / extend / 泛化 · 过关
+
+#### 1. 已完成
+- 辨型 5/5；deep-dive [26](./26-usecase-diagram-tutorial.md)
+
+#### 2. 交给续学
+- 序列/状态 或 设计模式
+
+#### 3. 入口
+- [26](./26-usecase-diagram-tutorial.md)
 
 ---
 
