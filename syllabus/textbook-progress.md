@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 7 / 12 章已学完 · **下一章：第 8 章算法** |
+| **教材正文** | 8 / 12 章已学完 · **建议下一章：第 10 网络或第 9 数据库** |
 | **补充模块** | DFD / UML 官方印刷图后补；算法编程随第 8 章启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -27,7 +27,7 @@
 | 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 6 | 结构化开发方法 | ✅ 已学完 | 2026-08-05 | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md) · **官方 DFD 印刷图后补** |
 | 7 | 面向对象技术 | ✅ 已学完 | 2026-08-06 | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)～[28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 巩固 [07-uml](../practice/drills/07-uml-drill.md) · **官方 UML 印刷题后补** |
-| 8 | 算法设计与分析 | 🔄 进行中 | | ~1 分 | — | [开场入口](../notes/08-algorithms/01-algorithms-entry.md) · 分治/贪心/DP/回溯 |
+| 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
 | 9 | 数据库技术基础 | ⬜ 未开始 | | ~6 分 | ~15 分 | ER、范式、SQL、事务 |
 | 10 | 网络与信息安全基础知识 | ⬜ 未开始 | | ~6 分 | — | 子网划分、TCP/UDP、加密 |
 | 11 | 标准化和软件知识产权基础知识 | ⬜ 未开始 | | ~4 分 | — | 考前 2～3 周背表即可 |
@@ -47,7 +47,7 @@
 | 下午 · 数据流图（DFD） | 下午选 1 | 第 6 章后 | 🔄 进行中 | 第 6 章已学完；自编①②已练；**官方印刷图后补** · [19](../notes/deep-dives/19-dfd-tutorial.md) |
 | 下午 · 数据库设计 | 下午选 1 | 第 9 章后 | ⬜ 未开始 | ER → 关系模式 |
 | 下午 · UML 建模 | 下午选 1 | 第 7 章后 | 🔄 穿插 | 第 7 章已学完；巩固演练已做 · **官方印刷真题后补** |
-| 下午 · 算法编程（C/C++/Java） | 下午选 1 | 第 3、8 章后 | 🔄 随第 8 章 | 策略辨型在本章；填空/手写靠真题 · [开场](../notes/08-algorithms/01-algorithms-entry.md) |
+| 下午 · 算法编程（C/C++/Java） | 下午选 1 | 第 3、8 章后 | 🔄 穿插 | 第 8 章策略已学完；填空/手写靠真题 · [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) |
 
 **合并在教材章内、不必单列模块的内容**：
 
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-08 | 第 8 章策略/复杂度过关并标学完，新增 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md)；计划 C：下主线网络或数据库 |
 | 2026-08-06 | 第 7 章标**已学完**；第 8 章标进行中 · 开场 [01-algorithms-entry](../notes/08-algorithms/01-algorithms-entry.md)；官方 UML 后补不挡 |
 | 2026-08-05 | 序列/状态故事讲解过关，新增 [28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md)；第 7 章概念块齐 |
 | 2026-08-05 | 设计模式六高频过关，新增 [27](../notes/deep-dives/27-design-patterns-tutorial.md)；第 7 章 P0+模式齐 |
