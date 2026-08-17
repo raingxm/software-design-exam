@@ -145,7 +145,8 @@
 - [ ] 数据库系统（第 9 章 · 2026-08-17 开场）
   - [x] 范式 1NF～3NF（2026-08-17 · [30](./notes/deep-dives/30-normalization-tutorial.md)）
   - [x] ER（2026-08-18 · [31](./notes/deep-dives/31-er-model-tutorial.md)）
-  - [ ] SQL / 事务
+  - [x] SQL（2026-08-18 · [32](./notes/deep-dives/32-sql-tutorial.md)）
+  - [ ] 事务 ACID / 隔离级别
 - [x] 软件工程（第 5 章 · 2026-07-22 已学完 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md)）
   - [x] 生命周期模型 / 测试级别 / 维护类型 / CMMI（收尾卷）
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）

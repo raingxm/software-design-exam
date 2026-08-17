@@ -10,7 +10,7 @@
 ## 开场白（续学用）
 
 ```text
-开始第 9 章，ER 模型
+开始第 9 章，SQL
 ```
 
 ---
@@ -90,11 +90,21 @@ mindmap
 - [x] 范式 1NF～3NF → [30](../deep-dives/30-normalization-tutorial.md)
 - [x] ER 基数与转表 → [31](../deep-dives/31-er-model-tutorial.md)
 
-**下一刀**：SQL 读懂；或隔日子网 1 题
+第三次课最小目标：
+- [x] 能分：WHERE vs HAVING ✅ 2026-08-18 · [32](../deep-dives/32-sql-tutorial.md)
+- [x] 能分：INNER JOIN vs LEFT JOIN
+- [x] 能认：GROUP BY 聚合；COUNT(*) vs COUNT(列)
+
+已过关：
+- [x] 范式 1NF～3NF → [30](../deep-dives/30-normalization-tutorial.md)
+- [x] ER 基数与转表 → [31](../deep-dives/31-er-model-tutorial.md)
+- [x] SQL 读懂 → [32](../deep-dives/32-sql-tutorial.md)
+
+**下一刀**：事务 ACID / 隔离级别（第 9 章概念块最后一刀）
 
 续学开场白：
 ```text
-开始第 9 章，SQL
+开始第 9 章，事务与隔离级别
 ```
 
 ---
@@ -103,6 +113,6 @@ mindmap
 
 ```text
 notes/09-database/      ← 本章开场（本文）
-notes/deep-dives/       ← 范式 [30]、ER [31] 已过关
+notes/deep-dives/       ← 范式 [30]、ER [31]、SQL [32] 已过关
 practice/drills/        ← 日后库设计小卷
 ```

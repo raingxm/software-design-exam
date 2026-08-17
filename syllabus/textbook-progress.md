@@ -28,7 +28,7 @@
 | 6 | 结构化开发方法 | ✅ 已学完 | 2026-08-05 | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md) · **官方 DFD 印刷图后补** |
 | 7 | 面向对象技术 | ✅ 已学完 | 2026-08-06 | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)～[28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 巩固 [07-uml](../practice/drills/07-uml-drill.md) · **官方 UML 印刷题后补** |
 | 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
-| 9 | 数据库技术基础 | 🔄 进行中 | | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · 范式 [30](../notes/deep-dives/30-normalization-tutorial.md) · ER [31](../notes/deep-dives/31-er-model-tutorial.md) · SQL/事务后补 |
+| 9 | 数据库技术基础 | 🔄 进行中 | | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · 范式 [30](../notes/deep-dives/30-normalization-tutorial.md) · ER [31](../notes/deep-dives/31-er-model-tutorial.md) · SQL [32](../notes/deep-dives/32-sql-tutorial.md) · 事务后补 |
 | 10 | 网络与信息安全基础知识 | ⬜ 未开始 | | ~6 分 | — | 子网划分、TCP/UDP、加密 |
 | 11 | 标准化和软件知识产权基础知识 | ⬜ 未开始 | | ~4 分 | — | 考前 2～3 周背表即可 |
 | 12 | 软件系统分析与设计 | ⬜ 未开始 | | — | 综合 | 下午案例总框架；需配合真题 |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-18 | SQL 辨型过关，[32](../notes/deep-dives/32-sql-tutorial.md)；订正 WHERE 与 GROUP BY 可同时有 |
 | 2026-08-18 | ER 辨型过关，[31](../notes/deep-dives/31-er-model-tutorial.md) 补弱实体（部分键 + 主人主键） |
 | 2026-08-17 | 第 9 章开场；范式 1NF/2NF/3NF 辨型过关，新增 [开场](../notes/09-database/01-database-entry.md) + [30](../notes/deep-dives/30-normalization-tutorial.md) |
 | 2026-08-08 | 第 8 章策略/复杂度过关并标学完，新增 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md)；计划 C：下主线网络或数据库 |
