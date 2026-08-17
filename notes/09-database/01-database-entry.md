@@ -10,7 +10,7 @@
 ## 开场白（续学用）
 
 ```text
-开始第 9 章，数据库范式
+开始第 9 章，ER 模型
 ```
 
 ---
@@ -81,11 +81,20 @@ mindmap
 - [x] 能指出：单属性主键 ⇒ 已是 2NF（经典陷阱）
 - [x] 一张表能分解到 3NF
 
-**下一刀**：ER（实体、联系、1:1 / 1:n / n:m）· 或 · 隔日子网 1 题
+第二次课最小目标：
+- [x] 能认：实体 / 属性 / 联系 ✅ 2026-08-18 · [31](../deep-dives/31-er-model-tutorial.md)
+- [x] 能判：1:1 / 1:n / n:m
+- [x] 能转：1:n 外键放 n 端；n:m 联系成表
+
+已过关：
+- [x] 范式 1NF～3NF → [30](../deep-dives/30-normalization-tutorial.md)
+- [x] ER 基数与转表 → [31](../deep-dives/31-er-model-tutorial.md)
+
+**下一刀**：SQL 读懂；或隔日子网 1 题
 
 续学开场白：
 ```text
-开始第 9 章，ER 模型
+开始第 9 章，SQL
 ```
 
 ---
@@ -94,6 +103,6 @@ mindmap
 
 ```text
 notes/09-database/      ← 本章开场（本文）
-notes/deep-dives/       ← 范式 deep-dive（过关再标）
+notes/deep-dives/       ← 范式 [30]、ER [31] 已过关
 practice/drills/        ← 日后库设计小卷
 ```
