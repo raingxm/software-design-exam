@@ -121,7 +121,7 @@
 - [x] 第 6 章 · 结构化开发方法（2026-08-05 · DFD/变换事务/耦合内聚/字典判定表/WebApp · 官方 DFD 后补）
 - [x] 第 7 章 · 面向对象技术（2026-08-06 · [24](./notes/deep-dives/24-oo-concepts-tutorial.md)～[28](./notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 官方 UML 后补）
 - [x] 第 8 章 · 算法设计与分析（2026-08-08 · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补）
-- [ ] 第 9 章 · 数据库技术基础
+- [ ] 第 9 章 · 数据库技术基础（2026-08-17 · 开场 + 范式过关 · [30](./notes/deep-dives/30-normalization-tutorial.md)）
 - [ ] 第 10 章 · 网络与信息安全基础知识
 
 ## 进度追踪
@@ -142,7 +142,9 @@
   - [ ] 文件与设备 / 磁盘调度（6 月）
   - [ ] 死锁与银行家算法（7 月）
 - [ ] 计算机网络
-- [ ] 数据库系统
+- [ ] 数据库系统（第 9 章 · 2026-08-17 开场）
+  - [x] 范式 1NF～3NF（2026-08-17 · [30](./notes/deep-dives/30-normalization-tutorial.md)）
+  - [ ] ER / SQL / 事务
 - [x] 软件工程（第 5 章 · 2026-07-22 已学完 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md)）
   - [x] 生命周期模型 / 测试级别 / 维护类型 / CMMI（收尾卷）
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
