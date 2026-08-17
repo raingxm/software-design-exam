@@ -1,7 +1,7 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-08-17  
+> 依据 2018 年版考试大纲 · 最后更新：2026-08-18  
 > 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
 > **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 8 / 12 章已学完 · **第 9 章进行中（范式 ✅）** |
+| **教材正文** | 9 / 12 章已学完 · **第 10 章进行中（子网）** |
 | **补充模块** | DFD / UML 官方印刷图后补；算法编程随第 8 章启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -28,8 +28,8 @@
 | 6 | 结构化开发方法 | ✅ 已学完 | 2026-08-05 | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md) · **官方 DFD 印刷图后补** |
 | 7 | 面向对象技术 | ✅ 已学完 | 2026-08-06 | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)～[28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 巩固 [07-uml](../practice/drills/07-uml-drill.md) · **官方 UML 印刷题后补** |
 | 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
-| 9 | 数据库技术基础 | 🔄 进行中 | | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · 范式 [30](../notes/deep-dives/30-normalization-tutorial.md) · ER [31](../notes/deep-dives/31-er-model-tutorial.md) · SQL [32](../notes/deep-dives/32-sql-tutorial.md) · 事务后补 |
-| 10 | 网络与信息安全基础知识 | ⬜ 未开始 | | ~6 分 | — | 子网划分、TCP/UDP、加密 |
+| 9 | 数据库技术基础 | ✅ 已学完 | 2026-08-18 | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · [30](../notes/deep-dives/30-normalization-tutorial.md)～[33](../notes/deep-dives/33-transaction-isolation-tutorial.md) · **官方下午 ER 后补** |
+| 10 | 网络与信息安全基础知识 | 🔄 进行中 | | ~6 分 | — | [开场](../notes/10-network/01-network-entry.md) · 子网 [34](../notes/deep-dives/34-subnet-tutorial.md) · TCP/加密后补 |
 | 11 | 标准化和软件知识产权基础知识 | ⬜ 未开始 | | ~4 分 | — | 考前 2～3 周背表即可 |
 | 12 | 软件系统分析与设计 | ⬜ 未开始 | | — | 综合 | 下午案例总框架；需配合真题 |
 
@@ -45,7 +45,7 @@
 |------|----------|----------|------|------|
 | 专业英语 | 上午 ~5 题 | 考前 2～3 周 | ⬜ 未开始 | 缩写表 + 近 3 年真题 |
 | 下午 · 数据流图（DFD） | 下午选 1 | 第 6 章后 | 🔄 进行中 | 第 6 章已学完；自编①②已练；**官方印刷图后补** · [19](../notes/deep-dives/19-dfd-tutorial.md) |
-| 下午 · 数据库设计 | 下午选 1 | 第 9 章后 | ⬜ 未开始 | ER → 关系模式 |
+| 下午 · 数据库设计 | 下午选 1 | 第 9 章后 | 🔄 穿插 | 第 9 章已学完；转表规则已练 · **官方印刷题后补** · [31](../notes/deep-dives/31-er-model-tutorial.md) |
 | 下午 · UML 建模 | 下午选 1 | 第 7 章后 | 🔄 穿插 | 第 7 章已学完；巩固演练已做 · **官方印刷真题后补** |
 | 下午 · 算法编程（C/C++/Java） | 下午选 1 | 第 3、8 章后 | 🔄 穿插 | 第 8 章策略已学完；填空/手写靠真题 · [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) |
 
@@ -75,6 +75,8 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-18 | 第 10 章开场；子网块大小法开课，新增 [开场](../notes/10-network/01-network-entry.md) + [34](../notes/deep-dives/34-subnet-tutorial.md) |
+| 2026-08-18 | 第 9 章标**已学完**；事务 [33](../notes/deep-dives/33-transaction-isolation-tutorial.md) 过关；官方下午 ER 后补不挡 |
 | 2026-08-18 | SQL 辨型过关，[32](../notes/deep-dives/32-sql-tutorial.md)；订正 WHERE 与 GROUP BY 可同时有 |
 | 2026-08-18 | ER 辨型过关，[31](../notes/deep-dives/31-er-model-tutorial.md) 补弱实体（部分键 + 主人主键） |
 | 2026-08-17 | 第 9 章开场；范式 1NF/2NF/3NF 辨型过关，新增 [开场](../notes/09-database/01-database-entry.md) + [30](../notes/deep-dives/30-normalization-tutorial.md) |

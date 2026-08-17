@@ -1,8 +1,8 @@
 # 第 9 章 · 数据库技术基础 — 开场入口
 
 > 教材第 9 章 · 上午约 **6 分** + 下午数据库设计约 **15 分**（选做）  
-> 状态：🔄 进行中 · 开场日 2026-08-17（第 8 章已标学完）  
-> 上章：[第 8 章算法开场](../08-algorithms/01-algorithms-entry.md)  
+> 状态：✅ 已学完 · 2026-08-18（官方下午 ER 印刷题后补）  
+> 下章：[第 10 章网络开场](../10-network/01-network-entry.md)  
 > 配套：[教材进度](../../syllabus/textbook-progress.md) · [交接看板](../deep-dives/01-learning-logs.md)
 
 ---
@@ -10,7 +10,7 @@
 ## 开场白（续学用）
 
 ```text
-开始第 9 章，SQL
+第 9 章标学完
 ```
 
 ---
@@ -89,22 +89,24 @@ mindmap
 已过关：
 - [x] 范式 1NF～3NF → [30](../deep-dives/30-normalization-tutorial.md)
 - [x] ER 基数与转表 → [31](../deep-dives/31-er-model-tutorial.md)
+- [x] SQL 读懂 → [32](../deep-dives/32-sql-tutorial.md)
 
-第三次课最小目标：
-- [x] 能分：WHERE vs HAVING ✅ 2026-08-18 · [32](../deep-dives/32-sql-tutorial.md)
-- [x] 能分：INNER JOIN vs LEFT JOIN
-- [x] 能认：GROUP BY 聚合；COUNT(*) vs COUNT(列)
+第四次课最小目标：
+- [x] 能口述：ACID 各一句 ✅ 2026-08-18 · [33](../deep-dives/33-transaction-isolation-tutorial.md)
+- [x] 能分：脏读 / 不可重复读 / 幻读
+- [x] 能查：读已提交还挡不住哪两种
 
 已过关：
 - [x] 范式 1NF～3NF → [30](../deep-dives/30-normalization-tutorial.md)
 - [x] ER 基数与转表 → [31](../deep-dives/31-er-model-tutorial.md)
 - [x] SQL 读懂 → [32](../deep-dives/32-sql-tutorial.md)
+- [x] 事务 ACID / 隔离级别 → [33](../deep-dives/33-transaction-isolation-tutorial.md)
 
-**下一刀**：事务 ACID / 隔离级别（第 9 章概念块最后一刀）
+**下一刀**：已标学完。官方下午 ER 后补 · 主线第 10 章子网
 
 续学开场白：
 ```text
-开始第 9 章，事务与隔离级别
+开始第 10 章，子网划分
 ```
 
 ---
@@ -113,6 +115,6 @@ mindmap
 
 ```text
 notes/09-database/      ← 本章开场（本文）
-notes/deep-dives/       ← 范式 [30]、ER [31]、SQL [32] 已过关
+notes/deep-dives/       ← [30]～[33] 已过关；官方下午 ER 后补
 practice/drills/        ← 日后库设计小卷
 ```
