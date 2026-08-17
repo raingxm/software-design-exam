@@ -18,6 +18,17 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-08-18 · 软工英语完形 · Brooks 抛弃型试点第 4 空
+
+- **来源**：刷题 App · 完形 7/20 · 第 4 空错
+- **题意**：whether to plan in advance to build a ( ) , or to promise to deliver the throwaway to customers
+- **正解**：throwaway
+- **错选**：product
+- **错因**：把「计划做出来的东西」理解成最终产品；原文对照的是「事先做 throwaway」vs「把 throwaway 交给客户」
+- **订正口述**：试点必做必扔；管理层不问要不要做试点，只问交不交给客户。Plan to throw one away.
+- **回炉**：巩固题 1 仍误选「要不要做试点」（同错因）；题 2 抛弃型、题 3 不能跳过设计 ✅
+- **链接**：[16 过程模型](../notes/deep-dives/16-process-models-tutorial.md)
+
 ### 2026-08-17 · OO 概念错题回炉 · 鸭子抽象方法双空
 
 - **来源**：刷题 App · 单选双空（第 1 空错）
