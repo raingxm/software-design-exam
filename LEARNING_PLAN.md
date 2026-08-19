@@ -124,7 +124,7 @@
 - [x] 第 7 章 · 面向对象技术（2026-08-06 · [24](./notes/deep-dives/24-oo-concepts-tutorial.md)～[28](./notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 官方 UML 后补）
 - [x] 第 8 章 · 算法设计与分析（2026-08-08 · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补）
 - [x] 第 9 章 · 数据库技术基础（2026-08-18 · [30](./notes/deep-dives/30-normalization-tutorial.md)～[33](./notes/deep-dives/33-transaction-isolation-tutorial.md) · 官方下午 ER 后补）
-- [ ] 第 10 章 · 网络与信息安全基础知识（2026-08-18 · 开场 + 子网进行中 · [34](./notes/deep-dives/34-subnet-tutorial.md)）
+- [ ] 第 10 章 · 网络与信息安全基础知识（2026-08-18 · 子网 ✅ · TCP 进行中 · [34](./notes/deep-dives/34-subnet-tutorial.md) / [36](./notes/deep-dives/36-tcp-tutorial.md)）
 
 ## 进度追踪
 
@@ -147,8 +147,8 @@
   - [ ] 文件与设备 / 磁盘调度（6 月）
   - [ ] 死锁与银行家算法（7 月）
 - [ ] 计算机网络（第 10 章 · 2026-08-18 开场）
-  - [ ] 子网划分（进行中 · [34](./notes/deep-dives/34-subnet-tutorial.md)）
-  - [ ] TCP/UDP / 握手 / 端口
+  - [x] 子网划分（2026-08-19 · [34](./notes/deep-dives/34-subnet-tutorial.md)）
+  - [ ] TCP/UDP / 握手 / 端口（进行中 · [36](./notes/deep-dives/36-tcp-tutorial.md)）
   - [ ] 加密（对称/非对称/签名）
 - [x] 数据库系统（第 9 章 · 2026-08-18 已学完）
   - [x] 范式 1NF～3NF（2026-08-17 · [30](./notes/deep-dives/30-normalization-tutorial.md)）

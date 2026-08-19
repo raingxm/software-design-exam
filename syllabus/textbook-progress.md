@@ -1,7 +1,7 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-08-18  
+> 依据 2018 年版考试大纲 · 最后更新：2026-08-19  
 > 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
 > **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | 9 / 12 章已学完 · **第 10 章进行中（子网）** |
+| **教材正文** | 9 / 12 章已学完 · **第 10 章进行中（子网 ✅ · TCP）** |
 | **补充模块** | DFD / UML 官方印刷图后补；算法编程随第 8 章启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -29,7 +29,7 @@
 | 7 | 面向对象技术 | ✅ 已学完 | 2026-08-06 | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)～[28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 巩固 [07-uml](../practice/drills/07-uml-drill.md) · **官方 UML 印刷题后补** |
 | 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
 | 9 | 数据库技术基础 | ✅ 已学完 | 2026-08-18 | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · [30](../notes/deep-dives/30-normalization-tutorial.md)～[33](../notes/deep-dives/33-transaction-isolation-tutorial.md) · **官方下午 ER 后补** |
-| 10 | 网络与信息安全基础知识 | 🔄 进行中 | | ~6 分 | — | [开场](../notes/10-network/01-network-entry.md) · 子网 [34](../notes/deep-dives/34-subnet-tutorial.md) · TCP/加密后补 |
+| 10 | 网络与信息安全基础知识 | 🔄 进行中 | | ~6 分 | — | [开场](../notes/10-network/01-network-entry.md) · 子网 [34](../notes/deep-dives/34-subnet-tutorial.md) ✅ · TCP [36](../notes/deep-dives/36-tcp-tutorial.md) 进行中 |
 | 11 | 标准化和软件知识产权基础知识 | ⬜ 未开始 | | ~4 分 | — | 考前 2～3 周背表即可 |
 | 12 | 软件系统分析与设计 | ⬜ 未开始 | | — | 综合 | 下午案例总框架；需配合真题 |
 
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-19 | 子网过关 7/7；[34](../notes/deep-dives/34-subnet-tutorial.md) 标 ✅；TCP 开课 [36](../notes/deep-dives/36-tcp-tutorial.md) |
 | 2026-08-18 | 第 1 章巩固刀 1～2（补码、流水线）过关；[回顾](../notes/01-computer-org/06-ch1-review.md) · [35](../notes/deep-dives/35-complement-pipeline-tutorial.md)；下一刀并联可靠度 |
 | 2026-08-18 | 第 10 章开场；子网块大小法开课，新增 [开场](../notes/10-network/01-network-entry.md) + [34](../notes/deep-dives/34-subnet-tutorial.md) |
 | 2026-08-18 | 第 9 章标**已学完**；事务 [33](../notes/deep-dives/33-transaction-isolation-tutorial.md) 过关；官方下午 ER 后补不挡 |
