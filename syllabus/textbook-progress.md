@@ -76,6 +76,7 @@
 | 日期 | 更新内容 |
 |------|----------|
 | 2026-08-19 | 第 1 章巩固刀 3 并联可靠度过关；新增 [37](../notes/deep-dives/37-reliability-tutorial.md)；下一刀 Cache 容量 |
+| 2026-08-19 | **收工**：第 10 章 C 档完结（子网/TCP/加密）；加密答疑写入 [38](../notes/deep-dives/38-crypto-tutorial.md) |
 | 2026-08-19 | 第 10 章标**已学完**；子网/TCP/加密全过关 · [34](../notes/deep-dives/34-subnet-tutorial.md)～[38](../notes/deep-dives/38-crypto-tutorial.md) |
 | 2026-08-19 | 子网过关 7/7；TCP 5/5；加密 5/5 |
 | 2026-08-18 | 第 1 章巩固刀 1～2（补码、流水线）过关；[回顾](../notes/01-computer-org/06-ch1-review.md) · [35](../notes/deep-dives/35-complement-pipeline-tutorial.md)；下一刀并联可靠度 |
