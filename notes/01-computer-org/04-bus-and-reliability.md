@@ -52,4 +52,4 @@ graph LR
 - **MFLOPS** (Million Floating-point Operations Per Second)：每秒百万次浮点运算。
 - **CPI** (Cycles Per Instruction)：执行一条指令所需的周期数。
 
-> **🔥 考点提醒**：地址总线宽度决定寻址空间大小。20位地址线 -> 1MB，32位地址线 -> 4GB。
+> **🔥 考点提醒**：地址总线送门牌号，宽度决定寻址空间。按字节编址：20 位 → 1MB，32 位 → **4GB**（不要除以 8）。巩固过关见 [40](../deep-dives/40-cache-addressing-tutorial.md)。

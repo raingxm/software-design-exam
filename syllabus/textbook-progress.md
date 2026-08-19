@@ -20,7 +20,7 @@
 
 | 章 | 标题 | 状态 | 完成日期 | 上午 | 下午 | 备注 / 笔记 |
 |----|------|------|----------|------|------|-------------|
-| 1 | 计算机系统知识 | ✅ 已学完 | 2026-06-28 | ~6 分 | — | [notes/01-computer-org/](../notes/01-computer-org/) · 巩固刀1～3 [回顾](../notes/01-computer-org/06-ch1-review.md) / [35](../notes/deep-dives/35-complement-pipeline-tutorial.md) / [37](../notes/deep-dives/37-reliability-tutorial.md) · 刀4 Cache 待续 |
+| 1 | 计算机系统知识 | ✅ 已学完 | 2026-06-28 | ~6 分 | — | [notes/01-computer-org/](../notes/01-computer-org/) · 巩固刀1～4 [回顾](../notes/01-computer-org/06-ch1-review.md) / [35](../notes/deep-dives/35-complement-pipeline-tutorial.md) / [37](../notes/deep-dives/37-reliability-tutorial.md) / [40](../notes/deep-dives/40-cache-addressing-tutorial.md) · 刀5 旋转延迟待续 |
 | 2 | 程序设计语言基础知识 | ✅ 已学完 | 2026-06-30 | ~6 分 | — | [主笔记](../notes/02-programming-lang/01-language-fundamentals.md) + [中缀后缀](../notes/deep-dives/03-infix-postfix-tutorial.md) / [文法自动机](../notes/deep-dives/04-grammar-automata-tutorial.md) deep-dive |
 | 3 | 数据结构 | ✅ 已学完 | 2026-07-08 | ~7 分 | ~15 分 | [回顾巩固](../notes/03-data-structures/01-data-structures-review.md) + [循环队列](../notes/deep-dives/05-circular-queue-tutorial.md) / [树还原](../notes/deep-dives/06-tree-reconstruction-tutorial.md) / [快排](../notes/deep-dives/07-quicksort-partition-tutorial.md) / [哈夫曼](../notes/deep-dives/08-huffman-tree-tutorial.md) / [堆排序](../notes/deep-dives/11-heapsort-tutorial.md) deep-dive · [进度地图](../notes/deep-dives/09-data-structures-progress-2026-07-08.md) |
 | 4 | 操作系统知识 | ✅ 已学完 | 2026-07-21 | ~6 分 | — | [回顾](../notes/02-os/04-os-review.md) + PV/置换/索引/磁盘 deep-dive；收尾卷 [02-os-12q](../practice/drills/02-os-12q.md) **11/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-20 | 第 1 章巩固刀 4 Cache/寻址过关；新增 [40](../notes/deep-dives/40-cache-addressing-tutorial.md)；下一刀旋转延迟 |
 | 2026-08-19 | 第 1 章巩固刀 3 并联可靠度过关；新增 [37](../notes/deep-dives/37-reliability-tutorial.md)；下一刀 Cache 容量 |
 | 2026-08-20 | 第 11 章轻量初读；[01](../notes/11-standard-ip/01-standard-ip-entry.md) + [39](../notes/deep-dives/39-standard-ip-tutorial.md) |
 | 2026-08-19 | 第 10 章标**已学完**；子网/TCP/加密全过关 · [34](../notes/deep-dives/34-subnet-tutorial.md)～[38](../notes/deep-dives/38-crypto-tutorial.md) |

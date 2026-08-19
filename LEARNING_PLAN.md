@@ -133,7 +133,8 @@
   - [x] 补码范围与书写（2026-08-18 · [35](./notes/deep-dives/35-complement-pipeline-tutorial.md)）
   - [x] 流水线 Δt / 总时间（2026-08-18 · 同上）
   - [x] 并联可靠度（2026-08-19 · [37](./notes/deep-dives/37-reliability-tutorial.md)）
-  - [ ] Cache 容量/映射（巩固刀 4，公式已讲）
+  - [x] Cache 容量与 32 位寻址（2026-08-20 · [40](./notes/deep-dives/40-cache-addressing-tutorial.md)）
+  - [ ] 旋转延迟取半圈（巩固刀 5，5400 题已抛）
   - [ ] 校验码深度计算 (海明码、CRC)
   - [ ] 非数值表示 (字符/多媒体)
   - [ ] 数学基础 (逻辑代数/排列组合/线性规划)
