@@ -148,7 +148,7 @@
   - [ ] 死锁与银行家算法（7 月）
 - [ ] 计算机网络（第 10 章 · 2026-08-18 开场）
   - [x] 子网划分（2026-08-19 · [34](./notes/deep-dives/34-subnet-tutorial.md)）
-  - [ ] TCP/UDP / 握手 / 端口（进行中 · [36](./notes/deep-dives/36-tcp-tutorial.md)）
+  - [x] TCP/UDP / 握手 / 端口（2026-08-19 · [36](./notes/deep-dives/36-tcp-tutorial.md)）
   - [ ] 加密（对称/非对称/签名）
 - [x] 数据库系统（第 9 章 · 2026-08-18 已学完）
   - [x] 范式 1NF～3NF（2026-08-17 · [30](./notes/deep-dives/30-normalization-tutorial.md)）
