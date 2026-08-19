@@ -9,7 +9,7 @@
 
 | 维度 | 进度 |
 |------|------|
-| **教材正文** | **10 / 12 章已学完** · 第 11、12 未开始 |
+| **教材正文** | 10 / 12 章已学完 · **第 11 章初读** · 第 12 未开始 |
 | **补充模块** | DFD / UML 官方印刷图后补；算法编程随第 8 章启动 |
 
 > 说明：此前 23 项为自定义拆分，已对齐官方 12 章目录；原 C/Java 独立章、软件测试/维护等合并在对应教材章或补充模块中。
@@ -30,7 +30,7 @@
 | 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
 | 9 | 数据库技术基础 | ✅ 已学完 | 2026-08-18 | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · [30](../notes/deep-dives/30-normalization-tutorial.md)～[33](../notes/deep-dives/33-transaction-isolation-tutorial.md) · **官方下午 ER 后补** |
 | 10 | 网络与信息安全基础知识 | ✅ 已学完 | 2026-08-19 | ~6 分 | — | [开场](../notes/10-network/01-network-entry.md) · [34](../notes/deep-dives/34-subnet-tutorial.md)～[38](../notes/deep-dives/38-crypto-tutorial.md) |
-| 11 | 标准化和软件知识产权基础知识 | ⬜ 未开始 | | ~4 分 | — | 考前 2～3 周背表即可 |
+| 11 | 标准化和软件知识产权基础知识 | 🔄 初读 | 2026-08-20 | ~4 分 | — | [开场](../notes/11-standard-ip/01-standard-ip-entry.md) · [39](../notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背 |
 | 12 | 软件系统分析与设计 | ⬜ 未开始 | | — | 综合 | 下午案例总框架；需配合真题 |
 
 **状态图例**：⬜ 未开始 · 🔄 进行中/复习中 · ✅ 已学完
@@ -76,7 +76,7 @@
 | 日期 | 更新内容 |
 |------|----------|
 | 2026-08-19 | 第 1 章巩固刀 3 并联可靠度过关；新增 [37](../notes/deep-dives/37-reliability-tutorial.md)；下一刀 Cache 容量 |
-| 2026-08-19 | **收工**：第 10 章 C 档完结（子网/TCP/加密）；加密答疑写入 [38](../notes/deep-dives/38-crypto-tutorial.md) |
+| 2026-08-20 | 第 11 章轻量初读；[01](../notes/11-standard-ip/01-standard-ip-entry.md) + [39](../notes/deep-dives/39-standard-ip-tutorial.md) |
 | 2026-08-19 | 第 10 章标**已学完**；子网/TCP/加密全过关 · [34](../notes/deep-dives/34-subnet-tutorial.md)～[38](../notes/deep-dives/38-crypto-tutorial.md) |
 | 2026-08-19 | 子网过关 7/7；TCP 5/5；加密 5/5 |
 | 2026-08-18 | 第 1 章巩固刀 1～2（补码、流水线）过关；[回顾](../notes/01-computer-org/06-ch1-review.md) · [35](../notes/deep-dives/35-complement-pipeline-tutorial.md)；下一刀并联可靠度 |

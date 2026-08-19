@@ -164,5 +164,5 @@
 - [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完 · 官方 UML 后补）
 - [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
 - [x] 数据结构与算法（第 3 章手算 ✅；第 8 章策略 ✅ · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md)）
-- [ ] 法律法规与标准化
+- [ ] 法律法规与标准化（第 11 章 · 2026-08-20 轻量初读 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前背表）
 - [ ] 专业英语
