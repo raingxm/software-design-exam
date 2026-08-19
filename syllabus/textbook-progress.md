@@ -75,6 +75,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-08-20 | 备考就绪评估基线 **58/100** · [快照](./prep-assessment-2026-08-20.md)；复评沿用同一加权 |
 | 2026-08-20 | 第 1 章巩固刀 4 Cache/寻址过关；新增 [40](../notes/deep-dives/40-cache-addressing-tutorial.md)；下一刀旋转延迟 |
 | 2026-08-19 | 第 1 章巩固刀 3 并联可靠度过关；新增 [37](../notes/deep-dives/37-reliability-tutorial.md)；下一刀 Cache 容量 |
 | 2026-08-20 | 第 11 章轻量初读；[01](../notes/11-standard-ip/01-standard-ip-entry.md) + [39](../notes/deep-dives/39-standard-ip-tutorial.md) |

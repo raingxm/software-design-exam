@@ -11,6 +11,7 @@
 - [学习计划](./LEARNING_PLAN.md)
 - [考试时间（陕西 2026 下半年）](./syllabus/exam-schedule.md)
 - [教材进度（12 章）](./syllabus/textbook-progress.md)
+- [备考就绪评估 · 2026-08-20 基线](./syllabus/prep-assessment-2026-08-20.md)
 - [考试覆盖指南](./syllabus/exam-coverage-guide.md)
 - [核心笔记](./notes/)
 - [代码练习](./exercises/)
