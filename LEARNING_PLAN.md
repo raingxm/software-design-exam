@@ -126,6 +126,7 @@
 - [x] 第 9 章 · 数据库技术基础（2026-08-18 · [30](./notes/deep-dives/30-normalization-tutorial.md)～[33](./notes/deep-dives/33-transaction-isolation-tutorial.md) · 官方下午 ER 后补）
 - [x] 第 10 章 · 网络与信息安全基础知识（2026-08-19 · [34](./notes/deep-dives/34-subnet-tutorial.md) / [36](./notes/deep-dives/36-tcp-tutorial.md) / [38](./notes/deep-dives/38-crypto-tutorial.md)）
 - [x] 第 11 章 · 标准化和软件知识产权基础知识（2026-08-21 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表）
+- [x] 第 12 章 · 软件系统分析与设计（2026-08-21 · 可行性/总体设计/详细设计/切换方式过关）
 
 ## 进度追踪
 
