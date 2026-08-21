@@ -125,6 +125,7 @@
 - [x] 第 8 章 · 算法设计与分析（2026-08-08 · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补）
 - [x] 第 9 章 · 数据库技术基础（2026-08-18 · [30](./notes/deep-dives/30-normalization-tutorial.md)～[33](./notes/deep-dives/33-transaction-isolation-tutorial.md) · 官方下午 ER 后补）
 - [x] 第 10 章 · 网络与信息安全基础知识（2026-08-19 · [34](./notes/deep-dives/34-subnet-tutorial.md) / [36](./notes/deep-dives/36-tcp-tutorial.md) / [38](./notes/deep-dives/38-crypto-tutorial.md)）
+- [x] 第 11 章 · 标准化和软件知识产权基础知识（2026-08-21 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表）
 
 ## 进度追踪
 
@@ -165,5 +166,5 @@
 - [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完 · 官方 UML 后补）
 - [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
 - [x] 数据结构与算法（第 3 章手算 ✅；第 8 章策略 ✅ · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md)）
-- [ ] 法律法规与标准化（第 11 章 · 2026-08-20 轻量初读 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前背表）
+- [x] 法律法规与标准化（第 11 章 · 2026-08-21 过关 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表）
 - [ ] 专业英语
