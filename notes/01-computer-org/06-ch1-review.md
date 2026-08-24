@@ -42,11 +42,13 @@ mindmap
 | 2 | 流水线 Δt / 总时间 | ✅ 2026-08-18 | 同上 |
 | 3 | 并联可靠度 | ✅ 2026-08-19 | [37](../deep-dives/37-reliability-tutorial.md) |
 | 4 | Cache 容量/映射、32 位寻址 | ✅ 2026-08-20 | [40](../deep-dives/40-cache-addressing-tutorial.md) |
-| 5 | 旋转延迟取半圈 | 🔄 已讲，5400 题未答 | [存储系统](./03-storage-systems.md) |
-| 6 | 海明 / CRC | ⬜ | [数据表示](./01-data-representation.md) · [02 海明](../deep-dives/02-hamming-code-tutorial.md) |
-| 7 | 逻辑代数、线性规划 | ⬜ 最后过 | [数学基础](./05-math-foundations.md) |
+| 5 | 旋转延迟取半圈 | ✅ 2026-08-25 | 5400RPM → 5.55ms；平均=半圈（均匀分布期望） |
+| 6 | 海明码 / CRC | ✅ 2026-08-25 | 2^k≥n+k+1；CRC=模2除法，只检错不纠错 |
+| 7 | 浮点数 / 汉字编码 | ✅ 2026-08-25 | 阶管范围尾管精度；机内码=区位码+A0A0H |
 
 重做目标：计组 30 题 **≥24/30** 再勾 LEARNING_PLAN 6 月第一项。
+
+**2026-08-25：7 刀全部过关。**
 
 ---
 
