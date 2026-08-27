@@ -18,6 +18,23 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-08-27 · 月末验收 Part 2 · 类图补图（在线学习系统）
+
+- **来源**：会话内自编场景（Student/Course/Teacher/Category/StudyRecord）
+- **限时**：未严格计时（讲解占大头，4 轮答疑 + 订正）
+- **结果**：**3 项过关，2 项需巩固**（关联类 / multiplicity 方向）
+- **逐项对账**：
+  - 类识别（5 个：Student/Course/Teacher/Category/StudyRecord）✅
+  - 关键属性识别（Student name+studentId / Course courseName+credit / Teacher title）✅
+  - 关系类型（学员-课程=关联 m:n；课程-教师=关联；课程-分类=关联）✅
+  - 关联类（StudyRecord 挂在 Student-Course 多对多中间）✅ **新学**
+  - multiplicity 方向（`*`/`1` 端数哪端）— **第一遍写反 3 处**（Course→Teacher/Category、StudyRecord→Student），订正后 ✅
+- **根因**：
+  - multiplicity 抽象规则"对端数"听不懂；改为「**数标在哪端 → 那端被数**」后通过
+  - 关联类"附加数据放在哪"理解不到，先用"故事法"讲（学员 A 选 C01 的数据归谁）再上图
+- **补强**：multiplicity 口诀 + 关联类概念 已补入 [25-class-diagram-relations](../notes/deep-dives/25-class-diagram-relations-tutorial.md)
+- **8 月 checklist 勾选**：「**能根据描述补简单类图**」✅
+
 ### 2026-08-27 · 月末验收 · 范式判定 + 分解
 
 - **来源**：会话内自编（订单明细 9 字段，复合候选键场景）
