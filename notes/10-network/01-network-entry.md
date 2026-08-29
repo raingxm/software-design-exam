@@ -95,5 +95,6 @@ mindmap
 
 ```text
 notes/10-network/       ← 本章开场（本文）
+notes/10-network/02-network-cheatsheet.md  ← 8 月末速查（子网/TCP/端口/加密）✅ 2026-08-29
 notes/deep-dives/       ← [34] 子网 ✅ · [36] TCP ✅ · [38] 加密 ✅
 ```

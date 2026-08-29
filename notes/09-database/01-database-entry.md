@@ -115,6 +115,7 @@ mindmap
 
 ```text
 notes/09-database/      ← 本章开场（本文）
+notes/09-database/02-database-cheatsheet.md  ← 8 月末速查（范式/ER/SQL/事务）✅ 2026-08-29
 notes/deep-dives/       ← [30]～[33] 已过关；官方下午 ER 后补
 practice/drills/        ← 日后库设计小卷
 ```
