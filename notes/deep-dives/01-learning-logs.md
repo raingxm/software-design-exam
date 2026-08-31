@@ -10,16 +10,39 @@
 > - 备考就绪基线：**58/100**（2026-08-20）· [快照](../../syllabus/prep-assessment-2026-08-20.md)
 >
 > ### 待巩固
-> 1. **DFD 符号**：圆=加工，双横线=数据存储，矩形=外部实体
-> 2. **哈夫曼 WPL 手算**：步骤需再练
+> 1. **设计模式角色填空**：上午场景辨型稳定；下午类图需熟悉 Context/State/Strategy/Subject 等标准角色名
+> 2. **DFD 符号**：圆=加工，双横线=数据存储，矩形=外部实体
+> 3. **哈夫曼 WPL 手算**：步骤需再练
 >
 > ### TODO（续学）
-> 1. [ ] （主线）上午近 2 年官方真题套卷
-> 2. [ ] 下午官方真题各 1 道：DFD / UML / ER / 算法
-> 3. [ ] 第 11 章考前背表过关（10 月）
+> 1. [ ] 继续设计模式角色填空：从第 4 题装饰模式开始，补完 Q4～Q10
+> 2. [ ] （主线）上午近 2 年官方真题套卷
+> 3. [ ] 下午官方真题各 1 道：DFD / UML / ER / 算法
+> 4. [ ] 第 11 章考前背表过关（10 月）
 >
 > ### 换机操作
-> **开场白**：「继续上午选择题轮转」或「开始下午真题」
+> **开场白**：「继续设计模式角色填空，从第 4 题装饰模式开始」或「继续上午选择题轮转」
+
+---
+
+## Session: 2026-09-01（设计模式角色填空）
+### 话题：下午类图角色名 · 练习启动
+
+#### 1. 已完成
+- 先完整梳理设计模式三类：创建型 / 结构型 / 行为型
+- 明确当前薄弱点：不是“场景选模式”，而是“类图中的类对应哪个标准角色”
+- 角色填空 Q1～Q3 已答并订正：
+  - Q1 状态模式：`Order = Context` 对；`OrderState` 建议写 **State / 抽象状态**，具体类写 **ConcreteState / 具体状态**
+  - Q2 策略模式：`PriceCalculator = Context`，`DiscountStrategy = Strategy`，折扣类 = `ConcreteStrategy`，掌握
+  - Q3 观察者模式：`WeatherData = Subject/被观察者`，显示/预警类 = `Observer/观察者`，`update()` 为更新接口，方向正确
+
+#### 2. 交给续学
+- 明天从角色填空 **第 4 题装饰模式** 继续，完成 Q4～Q10
+- 重点压熟标准角色名：`Component/ConcreteComponent/Decorator`、`Target/Adapter/Adaptee`、`Invoker/Command/Receiver`、`Originator/Memento/Caretaker`
+
+#### 3. 入口
+- [设计模式闪卡](./27-design-patterns-tutorial.md)
+- [练习记录](../../practice/README.md)
 
 ---
 
@@ -817,4 +840,3 @@
 - [ ] P1：PV 手算（回顾自测题 1 + [PV deep-dive](./11-pv-operation-tutorial.md) 再练 1～2 题）
 - [ ] 可选：经典序列闭卷算 LOOK 302 / SCAN 334；页面置换 Belady
 - [ ] 章收尾：近 3 年上午 OS 真题 → 标第 4 章已学完 → 开第 10 或第 5 章
-
