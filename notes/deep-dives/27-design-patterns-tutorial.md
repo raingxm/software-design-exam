@@ -47,12 +47,18 @@
 | 适配器 | `Target` 目标接口 | `Adapter` 适配器 | `Adaptee` 被适配者；`Client` 面向 `Target` 调用 |
 | 简单工厂 | `Product` 抽象产品 | `ConcreteProduct` 具体产品 | `SimpleFactory` 集中按 `type` 创建 |
 | 工厂方法 | `Product` 抽象产品；`Creator` 抽象工厂 | `ConcreteProduct`；`ConcreteCreator` | 每个具体工厂创建一种具体产品 |
+| 命令 | `Command` 抽象命令 | `ConcreteCommand` 具体命令 | `Invoker` 调用 `execute()`；`Receiver` 真正干活 |
+| 备忘录 | `Memento` 备忘录 | - | `Originator` 生成/恢复快照；`Caretaker` 管快照 |
+| 模板方法 | `AbstractClass` 抽象类 | `ConcreteClass` 具体子类 | `Template Method` 定流程；`Primitive Operation` 子类填步骤 |
 
 ```text
 被 createXxx() 返回的是 Product
 负责 createXxx() 的才是 Creator / Factory
 一个工厂按 type 判断 = 简单工厂
 多个工厂子类各造一种 = 工厂方法
+只有持有 Strategy/State 的主业务类优先叫 Context
+调用 execute() 的是 Invoker，真正干活的是 Receiver
+生成/恢复快照的是 Originator，管快照的是 Caretaker
 ```
 
 ### 可选再认

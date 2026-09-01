@@ -29,11 +29,11 @@
 - **回看**：[数据结构回顾 · 树与二叉树](../notes/03-data-structures/01-data-structures-review.md)
 - **口令**：完全二叉树像数组从 1 号位开始从左到右填；叶子在后半段，叶子数看 `ceil(n/2)`。
 
-### 2026-09-01 · 设计模式 · 角色填空练习 Q1～Q6
+### 2026-09-01 · 设计模式 · 角色填空练习 Q1～Q10
 
 - **来源**：会话内仿下午题角色填空（状态 / 策略 / 观察者等）
 - **限时**：未计时（边答边校正术语）
-- **进展**：已完成 Q1～Q6；Q7 工厂方法题已抛出，尚未作答
+- **进展**：已完成 Q1～Q10
 - **得分/状态**：
   - Q1 状态模式：能识别 `Order = Context`，需把“抽象类/具体实现类”细化为“抽象状态/具体状态”
   - Q2 策略模式：`Context / Strategy / ConcreteStrategy` 掌握
@@ -41,8 +41,12 @@
   - Q4 装饰模式：意图掌握；`DisplayComponent` 误写成“上下文类”，需改为 `Component / 抽象构件`；具体类为 `ConcreteComponent / ConcreteDecorator`
   - Q5 适配器模式：`Target / Adaptee / Adapter` 基本过关；注意 `Target` 优先写“目标接口”
   - Q6 简单工厂：`LoggerFactory` 能识别为工厂；但把 `Logger`、`FileLogger` 误写成“创建类”，需改为 `Product / ConcreteProduct`
-- **结论**：上午“场景 → 模式名”已稳定；下午题主要薄弱点是标准角色名，尤其工厂相关的“产品角色 vs 创建者角色”容易串。
-- **下一步开场白**：「继续设计模式角色填空，从第 7 题工厂方法开始」
+  - Q7 工厂方法：`Product / ConcreteProduct / Creator / ConcreteCreator` 全对；能说清“不同具体工厂创建不同具体产品”
+  - Q8 命令模式：`Command / ConcreteCommand` 对；`RemoteControl` 误写成上下文类，应为 `Invoker`；真正执行设备应为 `Receiver`
+  - Q9 备忘录模式：意图和封装原因掌握；`TextEditor` 应为 `Originator`，`History` 应为 `Caretaker`
+  - Q10 模板方法：整体稳定；`importData()` 为 `Template Method`，`readData()/parseData()` 更标准写法为 `Primitive Operation`
+- **结论**：上午“场景 → 模式名”已稳定；下午题主要薄弱点是标准角色名。当前最大易错点是把所有“主业务类”泛化成 `Context`，需按模式改称 `Invoker / Originator / Creator / AbstractClass` 等。
+- **下一步开场白**：「设计模式角色名快问快答：专练 Context / Invoker / Originator / Creator 区分」
 
 ### 2026-08-31 · 下午案例结构订正 + DFD 演练①复盘
 
