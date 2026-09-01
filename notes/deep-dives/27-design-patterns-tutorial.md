@@ -36,6 +36,25 @@
 | 装饰 vs 适配器 | 加功能（接口同类）vs 对齐不同接口 |
 | 观察者 vs 策略 | 多个听众 vs 选一个算法 |
 
+## 下午角色名速查
+
+| 模式 | 抽象/接口 | 具体实现 | 协作者/补充 |
+|------|-----------|----------|-------------|
+| 状态 | `State` 抽象状态 | `ConcreteState` 具体状态 | `Context` 上下文 |
+| 策略 | `Strategy` 抽象策略 | `ConcreteStrategy` 具体策略 | `Context` 上下文 |
+| 观察者 | `Subject` 主题 / 被观察者；`Observer` 观察者 | `ConcreteSubject`；`ConcreteObserver` | `update()` 更新接口 |
+| 装饰 | `Component` 抽象构件；`Decorator` 抽象装饰 | `ConcreteComponent`；`ConcreteDecorator` | `Decorator` 持有 `Component` 引用 |
+| 适配器 | `Target` 目标接口 | `Adapter` 适配器 | `Adaptee` 被适配者；`Client` 面向 `Target` 调用 |
+| 简单工厂 | `Product` 抽象产品 | `ConcreteProduct` 具体产品 | `SimpleFactory` 集中按 `type` 创建 |
+| 工厂方法 | `Product` 抽象产品；`Creator` 抽象工厂 | `ConcreteProduct`；`ConcreteCreator` | 每个具体工厂创建一种具体产品 |
+
+```text
+被 createXxx() 返回的是 Product
+负责 createXxx() 的才是 Creator / Factory
+一个工厂按 type 判断 = 简单工厂
+多个工厂子类各造一种 = 工厂方法
+```
+
 ### 可选再认
 
 | 模式 | 信号 |

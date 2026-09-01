@@ -15,7 +15,7 @@
 > 3. **哈夫曼 WPL 手算**：步骤需再练
 >
 > ### TODO（续学）
-> 1. [ ] 继续设计模式角色填空：从第 4 题装饰模式开始，补完 Q4～Q10
+> 1. [ ] 继续设计模式角色填空：从第 7 题工厂方法开始，补完 Q7～Q10
 > 2. [ ] （主线）上午近 2 年官方真题套卷
 > 3. [ ] 下午官方真题各 1 道：DFD / UML / ER / 算法
 > 4. [ ] 第 11 章考前背表过关（10 月）
@@ -26,19 +26,23 @@
 ---
 
 ## Session: 2026-09-01（设计模式角色填空）
-### 话题：下午类图角色名 · 练习启动
+### 话题：下午类图角色名 · Q1～Q6
 
 #### 1. 已完成
 - 先完整梳理设计模式三类：创建型 / 结构型 / 行为型
 - 明确当前薄弱点：不是“场景选模式”，而是“类图中的类对应哪个标准角色”
-- 角色填空 Q1～Q3 已答并订正：
+- 角色填空 Q1～Q6 已答并订正：
   - Q1 状态模式：`Order = Context` 对；`OrderState` 建议写 **State / 抽象状态**，具体类写 **ConcreteState / 具体状态**
   - Q2 策略模式：`PriceCalculator = Context`，`DiscountStrategy = Strategy`，折扣类 = `ConcreteStrategy`，掌握
   - Q3 观察者模式：`WeatherData = Subject/被观察者`，显示/预警类 = `Observer/观察者`，`update()` 为更新接口，方向正确
+  - Q4 装饰模式：意图掌握；`DisplayComponent` 应写 **Component / 抽象构件**，`TextView` 写 **ConcreteComponent / 具体构件**，装饰类写 **Decorator / ConcreteDecorator**
+  - Q5 适配器模式：`Target / Adaptee / Adapter` 基本过关；`Target` 优先写“目标接口”
+  - Q6 简单工厂：能识别统一工厂类，但把产品角色误写成创建者；`Logger = Product`，具体 Logger = `ConcreteProduct`，`LoggerFactory = SimpleFactory`
 
 #### 2. 交给续学
-- 明天从角色填空 **第 4 题装饰模式** 继续，完成 Q4～Q10
-- 重点压熟标准角色名：`Component/ConcreteComponent/Decorator`、`Target/Adapter/Adaptee`、`Invoker/Command/Receiver`、`Originator/Memento/Caretaker`
+- 晚点从角色填空 **第 7 题工厂方法** 继续，完成 Q7～Q10
+- 重点压熟标准角色名：`Product/ConcreteProduct/Creator/ConcreteCreator`、`Invoker/Command/Receiver`、`Originator/Memento/Caretaker`
+- 当前易错口令：被 `createXxx()` 返回的是 **产品 Product**；负责 `createXxx()` 的才是 **创建者 Creator / 工厂 Factory**
 
 #### 3. 入口
 - [设计模式闪卡](./27-design-patterns-tutorial.md)
