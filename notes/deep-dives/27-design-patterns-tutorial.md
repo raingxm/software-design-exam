@@ -61,6 +61,14 @@
 生成/恢复快照的是 Originator，管快照的是 Caretaker
 ```
 
+### Java 填空三坑（2026-09-01 组合模式真题教训 · 2.5/5）
+
+> 模式概念过关后，下午 Java 题失分集中在这三处，全是 TS/JS 习惯带入：
+
+1. **抽象类声明**：说明/类图写「抽象类」→ 声明处必写 `abstract class`（含 abstract 方法的普通类编译不过）
+2. **List 添加元素**：`add()`；`append()` 是 StringBuilder 的（JS 数组是 `push()`，别混）
+3. **迭代器强转**：原生 `Iterator`（无泛型）的 `next()` 返回 `Object`，赋给具体类型必须 `(MenuComponent) iterator.next()`
+
 ### 可选再认
 
 | 模式 | 信号 |

@@ -18,6 +18,22 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-09-01 · 下午案例 · Java 设计模式真题摸底（组合模式）
+
+- **来源**：App 标注 2024 下半年 · 下午解答题（4/6）· 餐厅菜单组合模式 · 经飞书截图 + 本地 OCR（Swift/Vision）转写
+- **限时**：未计时（摸底）
+- **得分**：**2.5/5**（约 7～8/15）
+- **逐空对账**：
+  - (1) ❌ 答 `class`，正解 `abstract class` —— 说明明写「MenuComponent 为抽象类」
+  - (2) ✅ `public abstract void add(MenuComponent menuComponent);`（末尾多一右括号，笔误不扣）
+  - (3) ❌ 答 `append(menuComponent)`，正解 `add(menuComponent)` —— List 用 add；append 是 StringBuilder 的
+  - (4) △ 答 `iterator.next()`，正解 `(MenuComponent) iterator.next()` —— 原生 Iterator 返回 Object，必须强转
+  - (5) ✅ `allMenus.print();` —— 递归打印整棵树，组合模式概念过关
+- **错因**：模式理解过关（统一接口 + 递归）；丢分集中在 **Java 语法/API 细节**（abstract 声明、List.add、迭代器强转），疑似 TS/JS 习惯带入
+- **口令**：① 说明写「抽象类」→ 必 `abstract class`；② List 添加是 `add()` 不是 `append()`；③ 原生 `Iterator.next()` 返回 Object，赋值必须强转
+- **结论**：试题五/六**固定选 Java**；语法坑与角色名并列为下午 OO 题两大失分源，均可用少量针对性练习收掉
+- **下一步开场白**：「再做一道 Java 设计模式真题，盯三坑复发」
+
 ### 2026-09-01 · 数据结构 · 一般树度数统计错题
 
 - **来源**：2026.08.31《软件设计师》每日一练截图第 8 题
