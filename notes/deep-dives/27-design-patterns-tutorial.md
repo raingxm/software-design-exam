@@ -50,7 +50,7 @@
 | 命令 | `Command` 抽象命令 | `ConcreteCommand` 具体命令 | `Invoker` 调用 `execute()`；`Receiver` 真正干活 |
 | 备忘录 | `Memento` 备忘录 | - | `Originator` 生成/恢复快照；`Caretaker` 管快照 |
 | 模板方法 | `AbstractClass` 抽象类 | `ConcreteClass` 具体子类 | `Template Method` 定流程；`Primitive Operation` 子类填步骤 |
-| 原型 | `Prototype`/`Cloneable` 声明克隆接口 | `ConcretePrototype` 实现 `Clone()` | `Client` 调 `Clone()`；引用字段递归克隆 = 深拷贝 |
+| 原型 | `Prototype` 抽象原型类（本题 `Cloneable`） | `ConcretePrototype` 具体原型类 | `Client` 客户类，调 `Clone()`；引用字段递归克隆 = 深拷贝 |
 
 ```text
 被 createXxx() 返回的是 Product
