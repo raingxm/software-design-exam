@@ -1,5 +1,7 @@
 # CPU 架构与指令系统
 
+> 冯诺依曼体系结构专项：[43-von-neumann-architecture-tutorial](../deep-dives/43-von-neumann-architecture-tutorial.md)
+
 ## 1. CPU 的组成
 CPU 由 **运算器** 和 **控制器** 组成。
 

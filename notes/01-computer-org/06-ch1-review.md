@@ -2,7 +2,7 @@
 
 > 教材第 1 章 · 上午约 **6 分**（概念 + 手算）  
 > 摸底：[计组 30 题](../../practice/drills/01-computer-org-30q.md) **10/30**（2026-06）  
-> 巩固：[35](../deep-dives/35-complement-pipeline-tutorial.md) · [37](../deep-dives/37-reliability-tutorial.md) · [40 Cache/寻址](../deep-dives/40-cache-addressing-tutorial.md) · 海明 [02](../deep-dives/02-hamming-code-tutorial.md)  
+> 巩固：[35](../deep-dives/35-complement-pipeline-tutorial.md) · [37](../deep-dives/37-reliability-tutorial.md) · [40 Cache/寻址](../deep-dives/40-cache-addressing-tutorial.md) · [43 冯诺依曼](../deep-dives/43-von-neumann-architecture-tutorial.md) · 海明 [02](../deep-dives/02-hamming-code-tutorial.md)  
 > 来源：2026-08-18～20 按错题回炉（不按教材目录）
 
 ---
