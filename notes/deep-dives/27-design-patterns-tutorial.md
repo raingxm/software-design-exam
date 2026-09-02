@@ -50,6 +50,7 @@
 | 命令 | `Command` 抽象命令 | `ConcreteCommand` 具体命令 | `Invoker` 调用 `execute()`；`Receiver` 真正干活 |
 | 备忘录 | `Memento` 备忘录 | - | `Originator` 生成/恢复快照；`Caretaker` 管快照 |
 | 模板方法 | `AbstractClass` 抽象类 | `ConcreteClass` 具体子类 | `Template Method` 定流程；`Primitive Operation` 子类填步骤 |
+| 原型 | `Prototype`/`Cloneable` 声明克隆接口 | `ConcretePrototype` 实现 `Clone()` | `Client` 调 `Clone()`；引用字段递归克隆 = 深拷贝 |
 
 ```text
 被 createXxx() 返回的是 Product
@@ -59,15 +60,18 @@
 只有持有 Strategy/State 的主业务类优先叫 Context
 调用 execute() 的是 Invoker，真正干活的是 Receiver
 生成/恢复快照的是 Originator，管快照的是 Caretaker
+私有构造器 = 克隆站：进的是原件，存的是副本
 ```
 
-### Java 填空三坑（2026-09-01 组合模式真题教训 · 2.5/5）
+### Java 填空五坑（2026-09-01 组合 2.5/5 · 2026-09-02 原型 1.5/5 真题教训）
 
-> 模式概念过关后，下午 Java 题失分集中在这三处，全是 TS/JS 习惯带入：
+> 模式概念过关后，下午 Java 题失分集中在此，多为 TS/JS 习惯带入：
 
 1. **抽象类声明**：说明/类图写「抽象类」→ 声明处必写 `abstract class`（含 abstract 方法的普通类编译不过）
 2. **List 添加元素**：`add()`；`append()` 是 StringBuilder 的（JS 数组是 `push()`，别混）
-3. **迭代器强转**：原生 `Iterator`（无泛型）的 `next()` 返回 `Object`，赋给具体类型必须 `(MenuComponent) iterator.next()`
+3. **凡接住 `Object` 返回值必强转**：`Clone()`/原生 `next()` 都返回 `Object` —— `(Resume)a.Clone()`、`(WorkExperience)work.Clone()`、`(MenuComponent)iterator.next()`；**强转只出现在「接住返回值」处，传参类型匹配不用转**（两题连犯，最高危）
+4. **复制一律 `new`**：考题自定义 `Clone()` 是普通方法 → 方法体里手工 `new` + 逐字段抄；`super()` 只能放构造器首行且不可赋值（真实 Java 的 `super.clone()` 惯用法别带进考场）
+5. **深拷贝主线**：引用类型字段必须 `Clone`，基本类型直接抄；私有构造器 = 克隆站（`new Resume(this.work)` 进原件 → 构造器内 `(WorkExperience)work.Clone()` 存副本）；两对象共享引用字段 = 改一个动两个
 
 ### 可选再认
 
