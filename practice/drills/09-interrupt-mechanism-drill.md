@@ -1,7 +1,7 @@
 # 中断机制 · 快练 4 题
 
 > 出处：2026-09-03 中断向量/中断分类/8259 PIC 系统讲解
-> 状态：**未作答**（2026-09-03 出题，次日继续）· 答案见 [09-interrupt-mechanism-drill-answers.md](./09-interrupt-mechanism-drill-answers.md)
+> 状态：**已完成**（2026-09-03 · 3/4；第 4 题已订正为 `20H × 4 = 80H`）· 答案见 [09-interrupt-mechanism-drill-answers.md](./09-interrupt-mechanism-drill-answers.md)
 
 1. 【基础概念】中断向量提供的是（ ）。
    - A. 中断源的设备地址

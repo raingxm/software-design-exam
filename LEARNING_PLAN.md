@@ -164,7 +164,7 @@
 
 - [ ] 计算机组成与体系结构（教材第 1 章已读 · [回顾](./notes/01-computer-org/06-ch1-review.md)）
   - [x] CPU 架构与存储系统
-  - [x] 中断机制：中断向量 / 分类 / 优先级 / 8259 PIC（2026-09-03 · [09 快练](./practice/drills/09-interrupt-mechanism-drill.md) 已出待做）
+  - [x] 中断机制：中断向量 / 分类 / 优先级 / 8259 PIC（2026-09-03 · [09 快练](./practice/drills/09-interrupt-mechanism-drill.md) 3/4，8086 向量地址已订正）
   - [x] 补码范围与书写（2026-08-18 · [35](./notes/deep-dives/35-complement-pipeline-tutorial.md)）
   - [x] 流水线 Δt / 总时间（2026-08-18 · 同上）
   - [x] 并联可靠度（2026-08-19 · [37](./notes/deep-dives/37-reliability-tutorial.md)）
@@ -197,7 +197,7 @@
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
   - [ ] PERT 关键路径（可选巩固，不挡学完）
 - [x] 结构化分析与设计（第 6 章 · 2026-08-05 已学完 · 官方 DFD 后补）
-- [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完；2026-08-31 巩固 include/extend 题眼 · 官方 UML 后补）
+- [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完；2026-08-31 巩固 include/extend 题眼；2026-09-03 类图/用例残图演练主体过关 · 官方 UML 后补）
 - [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
 - [x] 数据结构与算法（第 3 章手算 ✅；第 8 章策略 ✅；2026-08-31 巩固插入排序/堆排序场景 · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md)）
 - [x] 法律法规与标准化（第 11 章 · 2026-08-21 过关 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表）
