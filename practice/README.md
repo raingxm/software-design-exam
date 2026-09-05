@@ -18,6 +18,15 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-09-06 · 数据库 · 范式错题回炉
+
+- **来源**：刷题 App 截图 · 2026 年上半年考生回忆版单选题
+- **题目**：若关系模式 R 每个非主属性完全函数依赖于主键，则 R 满足？
+- **得分**：错选 A(3NF)，正确答案 B(2NF)
+- **错因**：把「完全函数依赖」误认为已经排除了 3NF 的传递依赖；实际它只排除了复合键上的部分依赖
+- **订正**：2NF = 非主属性完全依赖候选键；3NF = 无非主属性传递依赖；BCNF = 每条依赖的决定因素必须是候选键/超键
+- **笔记**：[30-normalization-tutorial](../notes/deep-dives/30-normalization-tutorial.md) · [数据库速查](../notes/09-database/02-database-cheatsheet.md)
+
 ### 2026-09-03 · OS + UML + DFD · 分页/中断快练 + UML/DFD 真题
 
 - **来源**：今日复习计划第 1～3 步 · [08 页式地址变换快练](./drills/08-paging-addressing-drill.md) · [09 中断机制快练](./drills/09-interrupt-mechanism-drill.md) · [07 UML 巩固演练](./drills/07-uml-drill.md) · 2022 下半年下午试题三 UML 温度转换模块 · 2024 下半年下午试题一 DFD 证券交易平台
