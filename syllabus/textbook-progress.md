@@ -1,7 +1,7 @@
 # 教材阅读进度
 
 > 软考中级 · 《软件设计师教程（第 5 版）》· 官方 **12 章**  
-> 依据 2018 年版考试大纲 · 最后更新：2026-08-19  
+> 依据 2018 年版考试大纲 · 最后更新：2026-09-07
 > 考纲与教程差异详见 [考试覆盖指南](./exam-coverage-guide.md)  
 > **换机续学**：先看 [学习日志置顶交接看板](../notes/deep-dives/01-learning-logs.md)
 
@@ -27,7 +27,7 @@
 | 5 | 软件工程基础知识 | ✅ 已学完 | 2026-07-22 | ~11 分 | — | [回顾](../notes/05-software-engineering/01-software-engineering-review.md) · 过程模型 [16](../notes/deep-dives/16-process-models-tutorial.md) · 测试 [17](../notes/deep-dives/17-software-testing-tutorial.md) · V/集成 [18](../notes/deep-dives/18-v-model-integration-tutorial.md) · 收尾 [05-se-12q](../practice/drills/05-se-12q.md) **10/12** · [交接看板](../notes/deep-dives/01-learning-logs.md) |
 | 6 | 结构化开发方法 | ✅ 已学完 | 2026-08-05 | ~2 分 | ~15 分 | DFD [19](../notes/deep-dives/19-dfd-tutorial.md) · 变换/事务 [20](../notes/deep-dives/20-transform-transaction-tutorial.md) · 耦合/内聚 [21](../notes/deep-dives/21-coupling-cohesion-tutorial.md) · 字典/判定表 [22](../notes/deep-dives/22-data-dict-decision-table-tutorial.md) · WebApp [23](../notes/deep-dives/23-webapp-tutorial.md) · 自编演练 [①](../practice/drills/06-dfd-drill.md)/[②](../practice/drills/06-dfd-drill-2.md) · **官方 DFD 印刷图后补** |
 | 7 | 面向对象技术 | ✅ 已学完 | 2026-08-06 | ~13 分 | ~15 分 | [开场](../notes/07-oop/01-oop-uml-review.md) · [24](../notes/deep-dives/24-oo-concepts-tutorial.md)～[28](../notes/deep-dives/28-sequence-state-diagram-tutorial.md) · 巩固 [07-uml](../practice/drills/07-uml-drill.md) · **官方 UML 印刷题后补** |
-| 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 下午编程后补 |
+| 8 | 算法设计与分析 | ✅ 已学完 | 2026-08-08 | ~1 分 | — | [开场](../notes/08-algorithms/01-algorithms-entry.md) · 策略/复杂度 [29](../notes/deep-dives/29-algorithm-strategies-tutorial.md) · 递归式复杂度 [45](../notes/deep-dives/45-recurrence-complexity-tutorial.md) · 下午编程后补 |
 | 9 | 数据库技术基础 | ✅ 已学完 | 2026-08-18 | ~6 分 | ~15 分 | [开场](../notes/09-database/01-database-entry.md) · [30](../notes/deep-dives/30-normalization-tutorial.md)～[33](../notes/deep-dives/33-transaction-isolation-tutorial.md) · **官方下午 ER 后补** |
 | 10 | 网络与信息安全基础知识 | ✅ 已学完 | 2026-08-19 | ~6 分 | — | [开场](../notes/10-network/01-network-entry.md) · [34](../notes/deep-dives/34-subnet-tutorial.md)～[38](../notes/deep-dives/38-crypto-tutorial.md) |
 | 11 | 标准化和软件知识产权基础知识 | ✅ 已学完 | 2026-08-21 | ~4 分 | — | [开场](../notes/11-standard-ip/01-standard-ip-entry.md) · [39](../notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表 |
@@ -76,6 +76,7 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-09-07 | 递归式复杂度错题回炉：会读递归式，并能用层间“变小/抵消/变大”判断顶层、各层或底层主导；新增 [45](../notes/deep-dives/45-recurrence-complexity-tutorial.md)，综合三题待晚间验收 |
 | 2026-08-21 | 第 12 章标**已学完**；可行性四维度·总体/详细设计·三种切换方式 6/6 过关；**12/12 章全部完成** |
 | 2026-08-21 | 第 11 章标**已学完**；标准代号 + 著作权归属/保护期 + 商业秘密辨型 6/6 过关 |
 | 2026-08-20 | 备考就绪评估基线 **58/100** · [快照](./prep-assessment-2026-08-20.md)；复评沿用同一加权 |

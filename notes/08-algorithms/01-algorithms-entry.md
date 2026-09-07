@@ -79,6 +79,7 @@ mindmap
 - [x] 分治 / 贪心 / 动态规划 / 回溯 各一句 ✅ 2026-08-08 · [29](../deep-dives/29-algorithm-strategies-tutorial.md)
 - [x] 给场景能选对策略名（5 题）
 - [x] 常见大 O 阶能排序
+- [ ] 递归式复杂度三种层间变化已理解，待完成综合三题验收（2026-09-07 · [45](../deep-dives/45-recurrence-complexity-tutorial.md)）
 
 **说明**：第 8 章上午约 1 分是「策略/复杂度」份额；排序树等细节在第 3 章；下午编程另算。
 
