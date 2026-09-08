@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>网络协议三要素速查</title>
+  <style>
+    :root { color-scheme: light; --ink:#18202a; --muted:#657184; --line:#dce3ea; --paper:#fff; --accent:#0c7c68; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#f3f6f8; font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif; }
+    main { max-width:860px; margin:40px auto; padding:38px 44px; background:var(--paper); box-shadow:0 12px 40px #18324d18; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:.02em; }
+    .lead { color:var(--muted); margin:0 0 28px; }
+    table { width:100%; border-collapse:collapse; margin:20px 0; }
+    th,td { padding:13px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+    th { color:var(--accent); font-weight:700; }
+    code { padding:.1em .35em; background:#eef3f5; border-radius:4px; }
+    .memory { margin-top:26px; padding:18px 20px; border-left:5px solid var(--accent); background:#eef8f5; font-size:18px; }
+    .trap { color:#a43d2f; }
+    footer { margin-top:30px; color:var(--muted); font-size:13px; }
+    @media print { body { background:white; } main { margin:0; max-width:none; box-shadow:none; } }
+  </style>
+</head>
+<body><main>
+  <h1>网络协议三要素</h1>
+  <p class="lead">考试口径：<strong>语法、语义、时序</strong></p>
+  <table>
+    <thead><tr><th>要素</th><th>回答的问题</th><th>TCP 示例</th></tr></thead>
+    <tbody>
+      <tr><td><strong>语法</strong></td><td>传什么格式？字段怎样排列？</td><td>TCP 首部中源端口、目的端口、序号等字段的位数和位置</td></tr>
+      <tr><td><strong>语义</strong></td><td>每个字段/动作表示什么？</td><td><code>SYN</code> 表示发起序号同步，<code>ACK</code> 表示确认有效</td></tr>
+      <tr><td><strong>时序</strong></td><td>何时发送？谁先谁后？收到后怎样响应？</td><td>建立连接依次经历 SYN → SYN+ACK → ACK</td></tr>
+    </tbody>
+  </table>
+  <div class="memory"><strong>一句话：</strong>语法看“形”，语义看“意”，时序看“先后”。</div>
+  <p class="trap"><strong>易错：</strong>时延是传输或处理耗费的时间，是网络性能指标；它不是协议三要素之一。</p>
+  <footer>依据：RFC 9110 对通信语法、含义和接收方预期行为的区分；RFC 9293 的 TCP 报文与状态机实例。</footer>
+</main></body>
+</html>
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>数组插入：为什么必须从右向左搬</title>
+  <style>
+    :root{--ink:#222;--paper:#fffdf8;--accent:#1d4ed8;--bad:#b91c1c;--line:#ded7ca}body{margin:0;background:#f1eee7;color:var(--ink);font:17px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:780px;margin:32px auto;padding:42px 50px;background:var(--paper);box-shadow:0 12px 38px #49371b18}h1{font:700 34px/1.2 Georgia,"Microsoft YaHei",serif;margin:0 0 8px}h2{font-size:20px;margin-top:30px}.lead{color:#667085}.cells{display:flex;gap:6px;margin:14px 0}.cells span{min-width:54px;padding:10px 4px;text-align:center;border:1px solid var(--line);background:white}.rule{border-left:5px solid var(--accent);padding:10px 16px;background:#eff6ff}code{background:#eee8dd;padding:.1em .35em;border-radius:4px}pre{background:#24211d;color:#fff8e8;padding:17px;border-radius:8px;overflow:auto}.bad{color:var(--bad)}a{color:var(--accent)}</style>
+</head>
+<body><main>
+  <h1>数组插入的移动方向</h1>
+  <p class="lead">目标：通过“先保护数据源”判断移动方向，不死背循环。</p>
+  <h2>目标</h2>
+  <p>在下标 1 插入 99：</p><div class="cells"><span>10</span><span>99</span><span>20</span><span>30</span><span>40</span></div>
+  <h2>正确：从右向左</h2>
+  <pre>for (j = n; j &gt; i; --j)
+    a[j] = a[j - 1];
+a[i] = 99;</pre>
+  <p>先搬最右边的 40，再搬 30、20。每次读取的源元素都还没被覆盖。</p>
+  <h2>错误：从左向右</h2>
+  <p>第一次令 <code>a[2]=a[1]</code> 后，原来的 30 已被 20 覆盖；下一次读取 <code>a[2]</code> 时读到的已经是 20。结果趋向于：</p>
+  <div class="cells bad"><span>10</span><span>99</span><span>20</span><span>20</span><span>20</span></div>
+  <p>主要错误是<strong>覆盖尚未搬走的数据</strong>，不一定是越界。</p>
+  <p class="rule"><strong>统一规律：</strong>目标区域在源区域右侧，就从右往左复制；目标区域在源区域左侧，就从左往右复制。永远从“不会踩到未读取源数据”的一端开始。</p>
+  <p>删除下标 <code>i</code> 的元素时空位在左侧，因此应从左向右执行 <code>a[j]=a[j+1]</code>。可与 <a href="https://opendsa.org/OpenDSA/Books/Everything/html/DesignAltList.html">OpenDSA 的数组表实现</a>对照。</p>
+  <p><a href="0001-doubly-circular-list-insertion.html">返回：双向循环链表插入</a></p>
+  <p class="lead">有任何一步不确定，继续向老师追问，并亲手写出每轮数组状态。</p>
+</main></body></html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>双向循环链表：在 p 后插入 s</title>
+  <style>
+    :root { color-scheme: light; --ink:#20242b; --muted:#667085; --accent:#c2410c; --paper:#fffdf8; --line:#eadfce; --ok:#166534; }
+    body { margin:0; background:#f3eee5; color:var(--ink); font:17px/1.65 system-ui,"Microsoft YaHei",sans-serif; }
+    main { max-width:780px; margin:32px auto; padding:40px 48px; background:var(--paper); box-shadow:0 12px 40px #402d1818; }
+    h1 { font:700 34px/1.2 Georgia,"Microsoft YaHei",serif; margin:0 0 8px; }
+    h2 { margin-top:30px; font-size:20px; }
+    .lead,.source { color:var(--muted); }
+    .diagram { padding:18px; border:1px solid var(--line); text-align:center; font:600 20px/1.8 ui-monospace,Consolas,monospace; }
+    code { background:#f5ede2; padding:.12em .35em; border-radius:4px; }
+    pre { padding:18px; overflow:auto; background:#24211d; color:#fff8ea; border-radius:8px; }
+    .rule { border-left:5px solid var(--accent); padding:10px 16px; background:#fff3e8; }
+    details { border:1px solid var(--line); padding:12px 16px; }
+    .answer { color:var(--ok); }
+    @media print { body{background:white} main{box-shadow:none;margin:0;max-width:none} }
+  </style>
+</head>
+<body><main>
+  <h1>双向循环链表插入</h1>
+  <p class="lead">目标：看懂“语句顺序改变指针含义”，避开覆盖旧指针的陷阱。</p>
+
+  <h2>1. 只画三个结点</h2>
+  <div class="diagram">插入前：p ⇄ q　（q = p-&gt;next）<br>插入后：p ⇄ s ⇄ q</div>
+  <p>插入后必须同时满足四条边：<code>p.next=s</code>、<code>s.prior=p</code>、<code>s.next=q</code>、<code>q.prior=s</code>。双向链表相邻结点的前后链接必须互相对应；参见 <a href="https://opendsa-server.cs.vt.edu/ODSA/Books/ewu/cscd320/spring-2019/01/html/ListDouble.html">OpenDSA</a>。</p>
+
+  <h2>2. 安全写法</h2>
+  <pre>q = p-&gt;next;          // 先保存旧后继
+s-&gt;next = q;
+s-&gt;prior = p;
+q-&gt;prior = s;
+p-&gt;next = s;          // 最后改入口</pre>
+  <p>去掉临时变量 <code>q</code>，就得到题目的 D：在执行最后一句前，<code>p-&gt;next</code> 仍是旧后继。</p>
+
+  <h2>3. B 为什么错</h2>
+  <pre>p-&gt;next-&gt;prior = s;  // 旧 q.prior = s
+p-&gt;next = s;         // 从此 p.next 已经是 s
+s-&gt;prior = p;
+s-&gt;next = p-&gt;next;   // 实际是 s.next = s，自环</pre>
+  <p class="rule"><strong>考试口诀：</strong>旧后继先读取，入口指针后覆盖。不要只核对四条赋值“有没有”，要逐句核对右侧表达式“此刻指向谁”。</p>
+
+  <h2>4. 一分钟检验</h2>
+  <p>若把 D 的最后两句交换，会得到什么错误？先在纸上逐句追踪，再展开答案。</p>
+  <details><summary>查看答案</summary><p class="answer">交换后先执行 <code>p-&gt;next=s</code>，随后 <code>p-&gt;next-&gt;prior=s</code> 访问的就是 <code>s.prior</code>，把它从 <code>p</code> 覆盖成 <code>s</code>；产生错误的自指前驱。</p></details>
+
+  <p class="source">建议继续向老师追问：删除结点时为什么也要先保存邻居？</p>
+</main></body></html>

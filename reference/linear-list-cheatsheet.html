@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>顺序表与链表速查</title>
+<style>body{margin:0;background:#f3f0e9;color:#20242b;font:16px/1.55 system-ui,"Microsoft YaHei",sans-serif}main{max-width:900px;margin:30px auto;padding:38px 46px;background:#fffdf8;box-shadow:0 12px 36px #40321e18}h1{font:700 32px Georgia,"Microsoft YaHei",serif;margin:0 0 8px}h2{margin-top:28px;font-size:20px}table{border-collapse:collapse;width:100%}th,td{border-bottom:1px solid #ddd5c8;padding:10px;text-align:left}th{background:#f1ece2}code{background:#eee8dd;padding:.1em .35em;border-radius:4px}.rule{border-left:5px solid #0f766e;background:#ecfdf5;padding:10px 15px}.muted{color:#667085}@media print{body{background:white}main{box-shadow:none;margin:0;max-width:none}}</style></head>
+<body><main><h1>顺序表与链表速查</h1><p class="muted">软件设计师考试：先看操作前提，再判断复杂度。</p>
+<table><thead><tr><th>操作</th><th>顺序表</th><th>链表</th></tr></thead><tbody>
+<tr><td>按下标访问</td><td><code>O(1)</code></td><td><code>O(n)</code></td></tr>
+<tr><td>无序按值查找</td><td><code>O(n)</code></td><td><code>O(n)</code></td></tr>
+<tr><td>有序二分查找</td><td><code>O(log n)</code></td><td>通常不适用</td></tr>
+<tr><td>已知合适位置后插删</td><td>内部位置 <code>O(n)</code></td><td>邻接信息充分时 <code>O(1)</code></td></tr>
+</tbody></table>
+<h2>数组移动</h2><p>长度为 <code>n</code>：下标 <code>i</code> 插入移动 <code>n-i</code> 个；删除移动 <code>n-i-1</code> 个。插入时元素右移、复制顺序从右向左；删除时元素左移、复制顺序从左向右。</p>
+<h2>链表指针</h2><p class="rule">先保存仍需使用的旧链接，再覆盖入口指针。复杂度必须注明“是否已经定位”和“是否拥有前驱/后继”。</p>
+<h2>空表边界</h2><p>带头结点循环双链表为空时：<code>head-&gt;next == head</code> 且 <code>head-&gt;prior == head</code>。</p>
+<p class="muted">参考：<a href="https://opendsa.org/OpenDSA/Books/Catalog/html/ListAnalysis.html">OpenDSA 列表实现比较</a>。遇到新的易错点，继续向老师提问并更新本页。</p></main></body></html>

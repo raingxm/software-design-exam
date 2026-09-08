@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>错题课：网络协议三要素</title>
+  <style>
+    :root { color-scheme:light; --ink:#16212d; --muted:#647184; --paper:#fffdfa; --accent:#007c6b; --warm:#e66b48; --line:#dfe5e8; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#eef2f3; color:var(--ink); font:17px/1.7 system-ui,"Microsoft YaHei",sans-serif; }
+    main { max-width:900px; margin:36px auto; padding:44px 52px; background:var(--paper); box-shadow:0 16px 50px #1a31461a; }
+    h1 { margin:0; font:700 34px/1.2 Georgia,"Microsoft YaHei",serif; }
+    h2 { margin:38px 0 10px; font-size:21px; }
+    .eyebrow { color:var(--warm); font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+    .lead { color:var(--muted); margin:10px 0 28px; }
+    .answer { padding:20px 24px; border-left:5px solid var(--accent); background:#edf8f5; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:18px 0; }
+    .card { min-height:150px; padding:18px; border:1px solid var(--line); border-radius:12px; }
+    .card strong { display:block; color:var(--accent); font-size:21px; }
+    .example { color:var(--muted); font-size:15px; }
+    .trap { padding:18px 22px; background:#fff0eb; border-radius:10px; }
+    label { display:block; margin:9px 0; padding:10px 14px; border:1px solid var(--line); border-radius:8px; cursor:pointer; }
+    button { margin-top:12px; padding:10px 18px; border:0; border-radius:8px; color:white; background:var(--accent); font-weight:700; cursor:pointer; }
+    #feedback { min-height:32px; margin-top:12px; font-weight:700; }
+    a { color:var(--accent); }
+    footer { margin-top:38px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    @media (max-width:680px) { main { margin:0; padding:28px 22px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body><main>
+  <div class="eyebrow">错题回炉 · 3 分钟</div>
+  <h1>网络协议的“三要素”</h1>
+  <p class="lead">目标：下次看到“时序 / 时延”时，不靠背答案也能排除。</p>
+
+  <div class="answer"><strong>原题答案：B，语法、语义、时序。</strong><br>你选了 D，说明“语法”记住了，但把“语义”换成了“时延”。</div>
+
+  <h2>先建立一个判断框架</h2>
+  <div class="grid">
+    <section class="card"><strong>语法 = 形</strong>数据和控制信息采用什么格式、字段如何排列。<p class="example">如 TCP 首部各字段的位数与位置。</p></section>
+    <section class="card"><strong>语义 = 意</strong>字段、取值或动作代表什么，以及接收方应做什么。<p class="example">如 SYN 表示请求同步序号。</p></section>
+    <section class="card"><strong>时序 = 序</strong>事件在什么条件下发生，谁先谁后，收到消息后如何响应。<p class="example">如 SYN → SYN+ACK → ACK。</p></section>
+  </div>
+  <p><strong>口诀：</strong>语法看“形”，语义看“意”，时序看“先后”。</p>
+
+  <h2>为什么不是“时延”</h2>
+  <div class="trap"><strong>时延</strong>回答“花了多久”，属于性能度量；<strong>时序</strong>回答“何时发生、先后如何”，属于交互规则。协议必须规定双方怎样配合，但其三要素不把网络快慢列为一项。</div>
+
+  <h2>迁移到真实协议：TCP 三次握手</h2>
+  <p><strong>语法：</strong>TCP 报文首部存在 SYN、ACK 等标志位。<br>
+     <strong>语义：</strong>SYN=1 和 ACK=1 各自具有约定含义。<br>
+     <strong>时序：</strong>客户端先发 SYN，服务端回 SYN+ACK，客户端再回 ACK。<br>
+     <strong>时延：</strong>完成握手需要多长时间——这是性能结果，不是三要素。</p>
+
+  <h2>闭卷小测</h2>
+  <p>先不要上翻：网络协议三要素通常是（ ）。</p>
+  <form id="quiz">
+    <label><input type="radio" name="q" value="A"> A　语法、语义、时延</label>
+    <label><input type="radio" name="q" value="B"> B　语法、语义、时序</label>
+    <label><input type="radio" name="q" value="C"> C　语义、时序、时延</label>
+    <label><input type="radio" name="q" value="D"> D　语法、时序、时延</label>
+    <button type="button" onclick="check()">检查答案</button>
+    <div id="feedback" aria-live="polite"></div>
+  </form>
+
+  <h2>权威延伸</h2>
+  <p>推荐浏览 <a href="https://www.rfc-editor.org/rfc/rfc9110.html">RFC 9110</a> 的引言：它把 HTTP 的通信语法、接收消息的意图（语义）和接收方预期行为明确区分开。再看 <a href="https://www.rfc-editor.org/rfc/rfc9293.html">RFC 9293</a> 的 TCP 报文格式与状态机，把三要素落到真实协议上。</p>
+  <p><a href="../reference/protocol-three-elements.html">打开一页速查卡</a></p>
+
+  <footer>如果“语义”和“时序”的边界仍不清楚，直接问我；我们可以继续做两个反例。完成小测后把答案发给我，我会据此安排下一道变式题。</footer>
+  <script>
+    function check() {
+      const chosen = document.querySelector('input[name="q"]:checked');
+      const out = document.getElementById('feedback');
+      if (!chosen) { out.textContent = '请先选择一个答案。'; out.style.color = '#a43d2f'; return; }
+      if (chosen.value === 'B') { out.textContent = '正确。请再口述一次：形、意、先后。'; out.style.color = '#007c6b'; }
+      else { out.textContent = '再辨析：时延看“多久”，时序看“先后”。'; out.style.color = '#a43d2f'; }
+    }
+  </script>
+</main></body>
+</html>
