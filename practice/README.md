@@ -18,6 +18,16 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-09-09 · 软工英语完形 · Brooks 软件本质复杂性
+
+- **来源**：刷题 App · 完形解析 14/20 · 《No Silver Bullet》复杂性段落
+- **得分 / 错题**：第 1 空错选 `program`，正解 `subroutine`；其余四空随全文复盘
+- **完整答案**：`subroutine / states / nonlinear / essential / ignored`
+- **错因**：只按常见词义选了范围过大的 `program`，未识别“将两段相似代码合并为一个可复用单元”以及历史术语 `open or closed subroutine`
+- **订正口令**：相似代码抽成 `subroutine`；前文 `states` 原词复现；`nonlinear` 对应后文 `more than linearly`；`essential` 与 `accidental` 反义；`ignored` 是省略 `which were` 的过去分词后置定语
+- **结论**：专业英语已启动；本篇五空的解题线索覆盖技术常识、原词复现、反义对照和语法结构
+- **笔记**：[41 软考英语](../notes/deep-dives/41-softexam-english-tutorial.md)
+
 ### 2026-09-07 · OS 验收 + 算法 C 首题 · 回溯法代码填空
 
 - **来源**：[08 页式地址变换快练](./drills/08-paging-addressing-drill.md) / [09 中断机制快练](./drills/09-interrupt-mechanism-drill.md) 闭卷验收 · 刷题 App 2024 下半年多供应商部件采购回溯题

@@ -227,4 +227,4 @@
 - [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
 - [x] 数据结构与算法（第 3 章手算 ✅；第 8 章策略 ✅；2026-08-31 巩固插入排序/堆排序场景 · [29](./notes/deep-dives/29-algorithm-strategies-tutorial.md)）
 - [x] 法律法规与标准化（第 11 章 · 2026-08-21 过关 · [39](./notes/deep-dives/39-standard-ip-tutorial.md) · 考前再背表）
-- [ ] 专业英语
+- [ ] 专业英语（🔄 已启动 · 已复盘云计算篇、Brooks 抛弃型试点与本质复杂性篇；继续近 3 年真题 + 15min 小块滚动）

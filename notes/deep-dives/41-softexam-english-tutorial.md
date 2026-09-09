@@ -37,6 +37,9 @@
 | serve as | 充当、作为 | 云计算 (4) |
 | in turn | 反过来、相应地 | 云计算 |
 | be built with / be formed with | 由…建成/构成 | 云计算 |
+| orders of magnitude more | 多若干数量级、远多于 | Brooks 复杂性 (2) |
+| in some ... fashion | 以某种……方式 | Brooks 复杂性 (3) |
+| abstract away | 抽象掉、略去细节 | Brooks 复杂性 |
 
 ## 已沉淀真题
 
@@ -58,6 +61,21 @@
 > 归属：软件过程 · 《人月神话》经典（Plan to throw one away）
 > 第 4 空：**throwaway**（是事先做试点还是把试点交给客户）· 其余空待补
 
+### ③ Brooks 软件本质复杂性（2026-09-09 App 刷题，解析 14/20）
+
+> 归属：软件工程经典 · 《No Silver Bullet》中的 essential complexity
+> 第 1 空错选 **program**，正解 **subroutine**；五空已按上下文完整复盘
+
+**答案：subroutine / states / nonlinear / essential / ignored**
+
+1. **subroutine** —— 两个相似部分会被抽取成一个可复用子程序；`open or closed subroutine` 是历史术语，`program` 范围过大【技术语境】
+2. **states** —— 上一句 `have very large numbers of states`，下一句直接比较软件系统具有更多状态【原词复现】
+3. **nonlinear** —— `in some nonlinear fashion`；后文 `more than linearly` 直接回指【搭配+复现】
+4. **essential** —— `an essential property, not an accidental one` 构成明确反义对照【逻辑】
+5. **ignored** —— `complexities (which were) ignored in the models`，过去分词作后置定语；简化模型成立是因为被忽略的复杂性并非现象本质【语法+语义】
+
+**本篇考场链**：相似代码→子程序；计算机状态→软件状态更多；元素非线性互动→复杂度超线性增长；复杂性是本质属性；自然科学模型只忽略非本质复杂性。
+
 ## 生词本（滚动）
 
 | 词 | 意 | 篇 |
@@ -66,6 +84,10 @@
 | infrastructure | 基础设施 | 云计算 |
 | platform | 平台 | 云计算 |
 | application | 应用 | 云计算 |
+| subroutine | 子程序 | Brooks 复杂性 |
+| nonlinear | 非线性的 | Brooks 复杂性 |
+| essential / accidental | 本质的 / 偶然的、附带的 | Brooks 复杂性 |
+| phenomenon (pl. phenomena) | 现象 | Brooks 复杂性 |
 
 ## 下一步
 
