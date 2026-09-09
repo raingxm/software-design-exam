@@ -221,7 +221,7 @@
 - [x] 软件工程（第 5 章 · 2026-07-22 已学完 · [回顾](./notes/05-software-engineering/01-software-engineering-review.md)）
   - [x] 生命周期模型 / 测试级别 / 维护类型 / CMMI（收尾卷）
   - [x] 耦合内聚（2026-08-04 · [21](./notes/deep-dives/21-coupling-cohesion-tutorial.md)）
-  - [ ] PERT 关键路径（可选巩固，不挡学完）
+  - [ ] PERT 关键路径（已理解最早事件时间与“第几天开始”的 `+1`；待陌生变式独立验证）
 - [x] 结构化分析与设计（第 6 章 · 2026-08-05 已学完 · 官方 DFD 后补）
 - [x] 面向对象分析与设计 (UML)（第 7 章 · 2026-08-06 已学完；2026-08-31 巩固 include/extend 题眼；2026-09-03 类图/用例残图演练主体过关；2022 下半年温度转换题问题 1 已理解、C1～C8 全对 · 官方 UML 后补）
 - [x] 设计模式（六高频 · [27](./notes/deep-dives/27-design-patterns-tutorial.md)）
