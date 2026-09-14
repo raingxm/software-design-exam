@@ -4,6 +4,8 @@
 > 主笔记：[30-normalization](../deep-dives/30-normalization-tutorial.md) · [31-er](../deep-dives/31-er-model-tutorial.md) · [32-sql](../deep-dives/32-sql-tutorial.md) · [33-transaction](../deep-dives/33-transaction-isolation-tutorial.md)  
 > 8 月末收口
 
+> **SQL 覆盖口径（2026-09-14 校正）**：上午只考「读结果 / 找错句」；**不考** `NOT IN` / `EXCEPT` / `NOT EXISTS` / 多层嵌套子查询。详见 [学习日志 9/14 下午条目](../deep-dives/01-learning-logs.md)。
+
 ---
 
 ## 1. 范式判定（核心 1 张表）
