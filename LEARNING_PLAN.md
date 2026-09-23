@@ -250,7 +250,7 @@
 ## 进度追踪
 
 - [ ] 计算机组成与体系结构（教材第 1 章已读 · [回顾](./notes/01-computer-org/06-ch1-review.md)）
-  - [x] CPU 架构与存储系统
+  - [x] CPU 架构与存储系统（2026-09-23 回顾收尾：DRAM/SRAM 已订正；CPU 部件职责较稳，写回位置、PC 控制流及指令/数据解释方式已补盲，待间隔抽测）
   - [x] 中断机制：中断向量 / 分类 / 优先级 / 8259 PIC（2026-09-03 · [09 快练](./practice/drills/09-interrupt-mechanism-drill.md) 3/4，8086 向量地址已订正）
   - [x] 补码范围与书写（2026-08-18 · [35](./notes/deep-dives/35-complement-pipeline-tutorial.md)）
   - [x] 流水线 Δt / 总时间（2026-08-18 · 同上）
