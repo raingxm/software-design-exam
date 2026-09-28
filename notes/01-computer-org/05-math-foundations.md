@@ -4,10 +4,17 @@
 这是上午前 5 题的常客，主要考查表达式的化简。
 
 ### 常用运算
-- **与 (AND, $\cdot$)**：有 0 则 0。
-- **或 (OR, $+$)**：有 1 则 1。
+- **与 (AND, $\cdot$ / 并写)**：有 0 则 0；两真才真。
+- **或 / 逻辑加 (OR, $+$)**：有 1 则 1。**不是算术加**（逻辑加 \(1+1=1\)）。
 - **非 (NOT, $\overline{A}$)**：取反。
-- **异或 (XOR, $\oplus$)**：相同为 0，不同为 1。
+- **异或 (XOR, $\oplus$)**：不同为 1，相同为 0。展开：$A\oplus B = A\overline{B}+\overline{A}B$。
+- **同或 (XNOR, $\odot$)**：相同为 1，不同为 0。展开：$A\odot B = AB+\overline{A}\,\overline{B}$。同或 = 异或取反。
+
+### 异或 / 同或口令（2026-09-28 错题回炉 · 变式 5/5）
+- 一边取反 → 变成同或：$\overline{A}\oplus B = A\oplus\overline{B} = A\odot B$
+- 两边取反 → 仍是异或：$\overline{A}\oplus\overline{B} = A\oplus B$
+- 异或 1 = 取反：$X\oplus 1 = \overline{X}$；故 $A\oplus B\oplus 1 = A\odot B$
+- 易混：看到 `+` 先想**或**，看到 `⊕` 先想**不同为 1**；勿把异或选成带 `+` 的或式。
 
 ### 常用公式
 - **分配律**：$A + (B \cdot C) = (A + B) \cdot (A + C)$ (注意这个与普通代数不同)
