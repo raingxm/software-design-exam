@@ -40,6 +40,10 @@
 | orders of magnitude more | 多若干数量级、远多于 | Brooks 复杂性 (2) |
 | in some ... fashion | 以某种……方式 | Brooks 复杂性 (3) |
 | abstract away | 抽象掉、略去细节 | Brooks 复杂性 |
+| architectural style | 架构风格 | SOA (71) |
+| implementation technology | 实现技术 | SOA (72) |
+| well-defined interfaces | 定义清晰的接口 | SOA (73) |
+| be well-suited as | 非常适合作为 | SOA (74) |
 
 ## 已沉淀真题
 
@@ -76,6 +80,20 @@
 
 **本篇考场链**：相似代码→子程序；计算机状态→软件状态更多；元素非线性互动→复杂度超线性增长；复杂性是本质属性；自然科学模型只忽略非本质复杂性。
 
+### ④ SOA 与 Web Services（2022 下真题 71～75）
+
+> 本卷英文区 `3/5`，错 Q71、Q73。Q71 属于“看到可通搭配就作答，未继续找后文强证据”；Q73 同时暴露 App 答案错误，不能盲背题库键值。
+
+**答案：style / technology / interfaces / well-suited / statelessness**
+
+1. **style** —— `architectural style`；末句再次出现同一搭配，属于原词复现；与 `implementation technology` 构成“架构思想 vs 实现手段”的层次对照。
+2. **technology** —— Web Services 是一种实现技术，不与 SOA 架构风格互相依赖。
+3. **interfaces** —— 原始材料为 `processes with well-defined interfaces`；接口是通信边界，function 是功能，logic 是内部实现。App 误标 `functions`，不可照背。
+4. **well-suited** —— `be well-suited as` 表示“非常适合作为”。
+5. **statelessness** —— 后文 `should be stateless` 同词根直接复现。
+
+**本篇验收**：Q71 最小变式独立答出 `architectural style / implementation technology`；Q73 已订正，待 `48h` 后陌生篇章复测。
+
 ## 生词本（滚动）
 
 | 词 | 意 | 篇 |
@@ -88,7 +106,12 @@
 | nonlinear | 非线性的 | Brooks 复杂性 |
 | essential / accidental | 本质的 / 偶然的、附带的 | Brooks 复杂性 |
 | phenomenon (pl. phenomena) | 现象 | Brooks 复杂性 |
+| interface / function / logic | 接口边界 / 所提供功能 / 内部实现逻辑 | SOA |
+| statelessness | 无状态性 | SOA |
 
 ## 下一步
 
-每遇英语题按 loop：做 → 翻译 → 摘搭配/生词/主题进本笔记；高频主题各刷 1 篇（云/大数据/AI/敏捷/安全）。
+- 每周 `3 x 15min`，每次一篇 5 空：前 `6～7min` 闭卷作答，后 `8～9min` 复盘。
+- 每个答案标注最强证据：复现 / 对照 / 搭配 / 技术常识；先做强证据空，不必按 71→75 顺序。
+- 每篇只沉淀 `3～5` 个词组，不抄整篇生词。目标为连续两篇 `>=4/5`，或四篇累计 `>=14/20`。
+- Q73 在 `48h` 后用陌生篇章复测；遇到答案别扭或两个选项都似乎可通时，回查原始语境，不盲信 App。
