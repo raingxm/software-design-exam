@@ -18,6 +18,15 @@
 
 <!-- 在下方追加，最新在上 -->
 
+### 2026-10-04 · 2022 下上午 · 责任链日志题代码回扣
+
+- **触发**：日志请求沿多个处理对象传递；用户确认此前只会认题，尚未代码级加深。
+- **已补**：单文件 Java 示例 `ConsoleLogger -> FileLogger -> ErrorLogger`；抽象处理者持有 `nextLogger`，统一执行“能处理则处理，否则转发”。
+- **辨析**：策略模式是选择一个算法；责任链是请求沿链寻找处理者，Client 只依赖链首。
+- **状态**：代码走读已补；待运行并完成“删除 ErrorLogger 后发送 ERROR”的链尾变式，不提前标完全过关。
+- **代码**：[ChainOfResponsibilityDemo.java](../exercises/04-chain-of-responsibility/ChainOfResponsibilityDemo.java)
+- **笔记**：[27-design-patterns-tutorial](../notes/deep-dives/27-design-patterns-tutorial.md#责任链-java-观察点)
+
 ### 2026-09-30 晚 · 模式串讲续（组合→模板，命令未开）
 
 - **来源**：9/29 换机交接「从组合重新讲起」；与 App 错题收口同日穿插。

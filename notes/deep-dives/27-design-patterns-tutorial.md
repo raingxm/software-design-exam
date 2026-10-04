@@ -60,7 +60,21 @@
 
 > 下午 Java 真题考哪个模式不重要，失分多在五坑（`abstract` / `add` / `Object` 强转 / 克隆站）。上午 2～3 题靠信号闪卡，不必 23 种全会写代码。
 >
-> **待续队列（2026-09-30）**：命令 → 状态 → 抽象工厂 / 建造者 / 责任链（信号级）；解释器跳过。
+> **待续队列更新（2026-10-04）**：命令 → 状态 → 抽象工厂 / 建造者；责任链已补下方 Java 走读示例，待运行及链尾变式自测；解释器跳过。
+
+### 责任链 Java 观察点
+
+可运行示例：[ChainOfResponsibilityDemo.java](../../exercises/04-chain-of-responsibility/ChainOfResponsibilityDemo.java)
+
+```text
+Client → ConsoleLogger → FileLogger → ErrorLogger
+```
+
+- 抽象处理者 `Logger` 持有 `nextLogger`，这是“链”的结构来源。
+- `log()` 固定“能处理就处理，否则向后传”的公共流程。
+- 具体处理者只决定 `canHandle()` 和 `write()`，彼此不知道对方。
+- `Client` 只依赖链首；增减或调整处理者顺序时，发送请求的代码不用改变。
+- 与策略模式的分界：策略是客户端/上下文**选一个**算法；责任链是请求自己沿链寻找处理者。
 
 ## 下午角色名速查
 
@@ -77,6 +91,7 @@
 | 备忘录 | `Memento` 备忘录 | - | `Originator` 生成/恢复快照；`Caretaker` 管快照 |
 | 模板方法 | `AbstractClass` 抽象类 | `ConcreteClass` 具体子类 | `Template Method` 定流程；`Primitive Operation` 子类填步骤 |
 | 原型 | `Prototype` 抽象原型类（本题 `Cloneable`） | `ConcretePrototype` 具体原型类 | `Client` 客户类，调 `Clone()`；引用字段递归克隆 = 深拷贝 |
+| 责任链 | `Handler` 抽象处理者（本题 `Logger`） | `ConcreteHandler`（三个具体 Logger） | `Handler` 持有 `nextLogger`；Client 只向链首发送请求 |
 
 ```text
 被 createXxx() 返回的是 Product
