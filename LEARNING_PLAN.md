@@ -396,6 +396,7 @@
   - [x] 子网划分（2026-08-19 · [34](./notes/deep-dives/34-subnet-tutorial.md)）
   - [x] TCP/UDP / 握手 / 端口（2026-08-19 · [36](./notes/deep-dives/36-tcp-tutorial.md)）
   - [x] 加密（对称/非对称/签名 · 2026-08-19 · [38](./notes/deep-dives/38-crypto-tutorial.md)）
+  - [x] 防火墙 / WAF / IDS / IPS 边界（2026-10-16 · 已理解三四层过滤与七层 HTTP 解析差异；未做独立变式）
 - [x] 数据库系统（第 9 章 · 2026-08-18 已学完）
   - [x] 范式 1NF～3NF（2026-08-17 · [30](./notes/deep-dives/30-normalization-tutorial.md)）
   - [x] ER（2026-08-18 · [31](./notes/deep-dives/31-er-model-tutorial.md)）
