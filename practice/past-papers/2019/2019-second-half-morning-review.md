@@ -20,7 +20,7 @@
 41-50： C B A C D  A B C D C
 51-60： B A C B A  D B C C A
 61-70： B C D A C  D A D A A
-71-75： C B A B C
+71-75： A B A B C
 ```
 
 ## 错题对照
@@ -43,7 +43,7 @@
 | 66 | A | D | TCP/IP 中可靠连接通信由传输层完成 |
 | 67 | B | A | OSI/RM 中对应传输层 |
 | 68 | C | D | IPv6 地址空间是 IPv4 的 `2^96` 倍 |
-| 71 | D | C | `cooperate with other applications` |
+| 71 | D | A | `integrate with` = 与其他应用集成，`via web services or a message broker` 是集成的两种手段；且第 75 空答案已是 `communicate`，同段不重复 |
 
 ## 第 41 题勘误
 
@@ -96,7 +96,38 @@
 - **Scrum vs XP**：问开会/角色/产物 → Scrum；问重构/结对/TDD/持续集成 → XP
 - **自动机 → 正则**：找出所有「回到终态的环路」当积木，每条积木串起来，整体加 `*`；机器只有两个状态时 `10` 读完就回起点，起点又能读 `0`，所以 `0` 可出现在任意位置
 
-剩余错题（1 道）：`71`（英语）。Q50 已勘误为原作答正确。
+剩余错题（0 道）。全部 16 道错题已完成第一轮；Q50 经勘误为原作答正确。
+
+## Q71 勘误（2026-10-20）
+
+**原记录「正解 C（cooperate）」有误，正确答案是 A（integrate）。用户原答 D 仍然错误。**
+
+多源核对结果：
+
+| 来源 | 71～75 | 判断 |
+|---|---|---|
+| [信管网 · 2019 下软件设计师上午真题（综合知识）](https://www.cnitpm.com/st/5025020977.html) | **A、B、A、B、C** | **采信**：整套试卷页面，五答案自洽 |
+| 信管网《软件设计师英语题》例题 4 | C、D、A、B、C | 不采信：其译文写「返回 HTML/JSON/XML 响应」，答案却标 D（File），自相矛盾，属转录错误；仓库原表 C 疑源出此类页面 |
+| 爱码网 / ProgrammerSought 答案表 | 71～75 CABAD | 不采信：`CABAD` 实为 **2019 上半年**项目管理短文的答案，年份串位 |
+
+判定依据：
+- 原文句为 `It might also integrate with other applications via either web services or a message broker.`，`integrate with` 是技术文档标准搭配，`via ... web services or a message broker` 正是**集成**的两种手段（消息代理为企业应用集成经典设施）。
+- `cooperate with` 通常用于人或组织，用于应用程序语感偏「人味」，属干扰项。
+- **硬约束**：第 75 空答案为 `communicate`，同段不会把同一词设为两空答案，故 71 不可能是 D；`cooperate` 亦不承担题目功能，是专为「见 with 就选」设计的诱饵。
+
+**可迁移规律：同一词若在两个空的选项里同时出现，通常只在一个空里是正确答案。** 本篇 71 与 75 选项均含 `communicate`，应先据此排除。
+
+## 本篇英语答案与依据
+
+| 空 | 答案 | 依据所在 |
+|---|---|---|
+| 71 | A. integrate | 后半句 `via either web services or a message broker` |
+| 72 | B. response | 同句 `handles requests ... returning` |
+| 73 | A. loosely coupled | 微服务定义；`cohesion` 只配 `high/low`，不配 `loosely` |
+| 74 | B. Independently | 破折号后 `without ... coordinate with other teams` |
+| 75 | C. communicate | 后面 `using either synchronous ... or asynchronous protocols` |
+
+**规律：五个空中有四个的答案写在同句后半截或紧跟着的解释里。**
 
 ## Q50 勘误（2026-10-20）
 
@@ -128,6 +159,6 @@
 ```
 
 - **Q50 自动机写正则（已勘误，非错题）**：图为两状态机器，`q0` 起始且终态、有 `0` 自环，`q0 --1--> q1 --0--> q0`；环路积木为 `0` 与 `10`，语言 `(0|10)*` 即选项 B。用户原作答即正确，参考答案 C 有误（程序穷举 0～8 位验证 B 88/88 相同、C 仅 25/88）。
-- **Q71 英语**：主旨答案常在首末句；看转折词（`however`/`but`）与重复出现两次以上的词，不选「单词在原文出现过」的干扰项。
+- **Q71 英语（已完成，答案经勘误）**：本篇为微服务英文阅读，五空答案 **A、B、A、B、C**（71 `integrate` / 72 `response` / 73 `loosely coupled` / 74 `Independently` / 75 `communicate`）。原答对 72、73、74，错 71（选 `communicate`）与 75。**仓库原表把 71 记为 C（`cooperate`），经信管网整套真题页核对应为 A**；`cooperate` 是「见 with 就选」的诱饵，且 75 空答案已是 `communicate`，同段不重复。方法：先读完整句，答案常在空后几个词或破折号解释里；`cohesion` 只配 `high/low`，`couple` 才配 `loosely`。
 
 软件工程（Q29、30）与设计模式（Q47）、基础与安全（Q1、8、10）已于 10/20 完成第一轮。
